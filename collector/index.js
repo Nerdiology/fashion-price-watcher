@@ -160,11 +160,11 @@ async function main() {
 
   const health = await healthcheck();
   if (!health.ok) {
-    console.error("Bright Data CLI not ready:", health.error);
-    console.error("Run `bdata login` locally, or set BRIGHTDATA_API_KEY in CI.");
+    console.error("Bright Data Web Unlocker not reachable:", health.error);
+    console.error("Run `bdata login` locally, or set a scrape-capable BRIGHTDATA_API_KEY in CI.");
     process.exit(1);
   }
-  console.log(`Bright Data OK — account balance ${health.balance || "?"}\n`);
+  console.log("Bright Data Web Unlocker OK\n");
 
   let targets = RETAILERS;
   if (args.only) targets = RETAILERS.filter((r) => args.only.includes(r.id));

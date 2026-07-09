@@ -62,12 +62,15 @@ export async function pipeline(type, params = [], opts = {}) {
   return JSON.parse(out);
 }
 
-// Verify the CLI is present and authenticated. Returns { ok, balance, error }.
+// Verify the CLI can actually do the one thing the collector needs: a Web
+// Unlocker request. We deliberately do NOT probe `bdata budget` — that requires
+// account/billing permissions many scrape-scoped API tokens don't carry, and a
+// 403 there would wrongly block a token that scrapes perfectly well.
 export async function healthcheck() {
   try {
-    const out = await run(["budget"], { timeoutMs: 30_000 });
-    const balance = (out.match(/\$[0-9]+(?:\.[0-9]{2})?/) || [])[0] || null;
-    return { ok: true, balance };
+    const out = await scrapeMarkdown("https://example.com", "us", { timeoutMs: 60_000 });
+    if (out && out.length > 40) return { ok: true };
+    return { ok: false, error: "Web Unlocker returned an empty response" };
   } catch (err) {
     return { ok: false, error: err.stderr || err.message };
   }
