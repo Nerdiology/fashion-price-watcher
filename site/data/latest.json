@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T12:18:51.998Z",
+  "generatedAt": "2026-07-09T15:48:24.982Z",
   "currency": "USD",
   "poweredBy": "Bright Data — Web Unlocker, SERP API & Web Scraper API",
   "retailers": [
@@ -19,7 +19,7 @@
         "count": 31,
         "min": 9.99,
         "max": 59.99,
-        "avg": 25.02,
+        "avg": 24.05,
         "median": 19.99,
         "p25": 12.99,
         "p75": 29.99
@@ -90,6 +90,12 @@
           "price": 14.99,
           "currency": "USD",
           "url": "https://www2.hm.com/en_us/productpage.1343036002.html"
+        },
+        {
+          "name": "Fitted T-Shirt",
+          "price": 14.99,
+          "currency": "USD",
+          "url": "https://www2.hm.com/en_us/productpage.1341808001.html"
         },
         {
           "name": "Fine-Knit Cardigan",
@@ -200,12 +206,6 @@
           "url": "https://www2.hm.com/en_us/productpage.1350089001.html"
         },
         {
-          "name": "Lace-Trimmed Slip Dress",
-          "price": 44.99,
-          "currency": "USD",
-          "url": "https://www2.hm.com/en_us/productpage.1349292001.html"
-        },
-        {
           "name": "Lace-Trimmed Satin Skirt",
           "price": 49.99,
           "currency": "USD",
@@ -303,9 +303,9 @@
       "color": "#14B8A6",
       "url": "https://www.uniqlo.com/us/en/women/featured/new-arrivals",
       "domain": "uniqlo.com",
-      "status": "ok",
-      "stale": false,
-      "error": null,
+      "status": "stale",
+      "stale": true,
+      "error": "no products parsed (served last good data)",
       "collectedFrom": "https://www.uniqlo.com/us/en/spl/ranking/women?srsltid=AfmBOoo4cCM6VPDdl1hHC7IZzJCHYqcKMqv1p1qVnI-ToROqxBah7kvP",
       "method": "serp-discovery",
       "productCount": 4,
@@ -445,9 +445,9 @@
         "count": 48,
         "min": 37.99,
         "max": 329,
-        "avg": 84,
-        "median": 61.5,
-        "p25": 51.25,
+        "avg": 83.47,
+        "median": 60,
+        "p25": 48.75,
         "p75": 74.99
       },
       "cheapest": {
@@ -480,6 +480,12 @@
           "price": 37.99,
           "currency": "USD",
           "url": "https://www.asos.com/us/asos-design/asos-design-slinky-draped-asymmetric-top-with-ruching-details-in-brown/prd/211279661#colourWayId-211279663"
+        },
+        {
+          "name": "ASOS DESIGN bandeau pleated top set in black $39.99",
+          "price": 39.99,
+          "currency": "USD",
+          "url": "https://www.asos.com/us/asos-design/asos-design-bandeau-pleated-top-set-in-black/prd/211048131#colourWayId-211048139"
         },
         {
           "name": "Topshop tie detail bandeau top in brown stripes $40.00 MORE COLORS Selling fast",
@@ -636,12 +642,6 @@
           "price": 64.99,
           "currency": "USD",
           "url": "https://www.asos.com/us/asos-design/asos-design-modal-soft-touch-jumpsuit-with-pockets-in-red/prd/210299118#colourWayId-210299123"
-        },
-        {
-          "name": "Topshop polka dotted flood length satin bias cut maxi skirt in buttermilk $65.00",
-          "price": 65,
-          "currency": "USD",
-          "url": "https://www.asos.com/us/topshop/topshop-polka-dotted-flood-length-satin-bias-cut-maxi-skirt-in-buttermilk/prd/211050252#colourWayId-211050268"
         },
         {
           "name": "Missyempire mesh overlay strapless maxi dress in orange ombré $66.00",
@@ -842,16 +842,16 @@
           "url": "https://www.cos.com/en-us/women/womenswear/tops/sleeveless/product/twist-detail-jersey-top-white-1340575003"
         },
         {
-          "name": "Tailored elasticated linen shorts",
-          "price": 89,
-          "currency": "USD",
-          "url": "https://www.cos.com/en-us/women/womenswear/trousers/linen/product/tailored-elasticated-linen-shorts-white-1262844007"
-        },
-        {
           "name": "Oversized short-sleeved linen shirt",
           "price": 89,
           "currency": "USD",
           "url": "https://www.cos.com/en-us/women/womenswear/shirts/linenshirts/product/oversized-short-sleeved-linen-shirt-white-1314348001"
+        },
+        {
+          "name": "Tailored elasticated linen shorts",
+          "price": 89,
+          "currency": "USD",
+          "url": "https://www.cos.com/en-us/women/womenswear/trousers/linen/product/tailored-elasticated-linen-shorts-white-1262844007"
         },
         {
           "name": "Wide-leg denim shorts",
@@ -869,7 +869,7 @@
           "name": "Knee-length denim shorts",
           "price": 99,
           "currency": "USD",
-          "url": "https://www.cos.com/en-us/women/womenswear/shorts/denim/product/knee-length-denim-shorts-white-1318323003"
+          "url": "https://www.cos.com/en-us/women/womenswear/shorts/denim/product/knee-length-denim-shorts-light-blue-1318323004"
         },
         {
           "name": "ELASTICATED BARREL-LEG PANTS",
@@ -902,6 +902,12 @@
           "url": "https://www.cos.com/en-us/women/womenswear/jeans/tapered/product/arch-jeans-tapered-indigo-0969093035"
         },
         {
+          "name": "Satin wide-leg pants",
+          "price": 129,
+          "currency": "USD",
+          "url": "https://www.cos.com/en-us/women/womenswear/trousers/wideleg/product/satin-wide-leg-trousers-navy-1283722005"
+        },
+        {
           "name": "Twist-detail jersey midi skirt",
           "price": 129,
           "currency": "USD",
@@ -912,12 +918,6 @@
           "price": 129,
           "currency": "USD",
           "url": "https://www.cos.com/en-us/women/womenswear/jeans/straightleg/product/reprise-straight-leg-jeans-faded-blue-1298075001"
-        },
-        {
-          "name": "Satin wide-leg pants",
-          "price": 129,
-          "currency": "USD",
-          "url": "https://www.cos.com/en-us/women/womenswear/trousers/wideleg/product/satin-wide-leg-trousers-navy-1283722005"
         },
         {
           "name": "Knitted merino wool t-shirt",
@@ -1093,7 +1093,7 @@
         "id": "hm",
         "name": "H&M",
         "color": "#E50010",
-        "avg": 25.02,
+        "avg": 24.05,
         "median": 19.99,
         "min": 9.99,
         "max": 59.99,
@@ -1113,8 +1113,8 @@
         "id": "asos",
         "name": "ASOS",
         "color": "#6366F1",
-        "avg": 84,
-        "median": 61.5,
+        "avg": 83.47,
+        "median": 60,
         "min": 37.99,
         "max": 329,
         "count": 48
@@ -1163,8 +1163,8 @@
     "cheapestRetailer": {
       "id": "hm",
       "name": "H&M",
-      "color": "#e50010",
-      "avg": 25.02,
+      "color": "#E50010",
+      "avg": 24.05,
       "median": 19.99,
       "min": 9.99,
       "max": 59.99,
@@ -1173,14 +1173,14 @@
     "priciestRetailer": {
       "id": "mango",
       "name": "Mango",
-      "color": "#8b6b4f",
+      "color": "#F59E0B",
       "avg": 102.49,
       "median": 84.99,
       "min": 59.99,
       "max": 199.99,
       "count": 8
     },
-    "overallAvg": 72.46,
+    "overallAvg": 72.06,
     "overallMedian": 59.99,
     "cheapestItem": {
       "retailer": "H&M",
