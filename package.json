@@ -1,0 +1,27 @@
+{
+  "name": "fashion-price-watcher",
+  "version": "1.0.0",
+  "description": "Track and compare best-selling fashion prices across the top 10 global retailers, powered by the Bright Data web-data platform.",
+  "type": "module",
+  "scripts": {
+    "collect": "node collector/index.js",
+    "collect:one": "node collector/index.js --only",
+    "serve": "node collector/serve.js",
+    "check": "node collector/index.js --dry-run"
+  },
+  "keywords": [
+    "bright-data",
+    "web-scraping",
+    "price-comparison",
+    "fashion",
+    "hm",
+    "zara",
+    "uniqlo",
+    "ecommerce"
+  ],
+  "author": "Nerdiology",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  }
+}

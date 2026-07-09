@@ -1,0 +1,77 @@
+name: Collect prices & deploy dashboard
+
+on:
+  schedule:
+    # Daily at 06:00 UTC — fresh best-seller prices every morning.
+    - cron: "0 6 * * *"
+  workflow_dispatch: # manual "Run workflow" button
+  push:
+    branches: [main]
+    paths:
+      - "site/**"
+      - ".github/workflows/**"
+
+permissions:
+  contents: write # commit refreshed snapshots
+  pages: write # deploy to GitHub Pages
+  id-token: write
+
+# Never run two deploys at once; let a running one finish.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      # Collect only on schedule / manual runs — never on a plain code push,
+      # so pushing dashboard tweaks just redeploys without spending credits.
+      - name: Install Bright Data CLI
+        if: github.event_name != 'push'
+        run: npm install -g @brightdata/cli
+
+      - name: Collect best-seller prices
+        if: github.event_name != 'push'
+        continue-on-error: true # a flaky retailer must not block the deploy
+        env:
+          BRIGHTDATA_API_KEY: ${{ secrets.BRIGHTDATA_API_KEY }}
+          BRIGHTDATA_UNLOCKER_ZONE: ${{ secrets.BRIGHTDATA_UNLOCKER_ZONE || 'cli_unlocker' }}
+        run: node collector/index.js --limit 48
+
+      - name: Commit refreshed snapshot
+        if: github.event_name != 'push'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add site/data/*.json
+          if git diff --staged --quiet; then
+            echo "No data changes to commit."
+          else
+            # [skip ci] prevents the push trigger from re-running this workflow.
+            git commit -m "chore: refresh price snapshot $(date -u +%Y-%m-%d) [skip ci]"
+            git push
+          fi
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload dashboard artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - name: Deploy to GitHub Pages
+        id: deploy
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Fashion Price Watcher — best-seller prices across the top 10 retailers</title>
+    <meta
+      name="description"
+      content="Live price comparison of best-selling items across H&M, Zara, Uniqlo, Mango, ASOS, COS, Gap, SHEIN, Nike and adidas — powered by the Bright Data web-data platform."
+    />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏷️</text></svg>" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <div class="brand">
+          <span class="brand-mark">🏷️</span>
+          <div>
+            <h1>Fashion Price Watcher</h1>
+            <p class="brand-sub">Best-seller prices across the top 10 global fashion retailers</p>
+          </div>
+        </div>
+        <div class="header-actions">
+          <span class="powered">
+            <span class="dot"></span> Powered by <a href="https://brightdata.com" target="_blank" rel="noopener">Bright Data</a>
+          </span>
+          <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme" title="Toggle theme">◐</button>
+        </div>
+      </div>
+    </header>
+
+    <main class="wrap" id="app">
+      <div id="loading" class="loading">Loading latest price snapshot…</div>
+    </main>
+
+    <template id="tpl-dashboard">
+      <section class="meta-bar">
+        <div class="updated">
+          Snapshot <strong data-slot="updated"></strong>
+          <span class="src" data-slot="source"></span>
+        </div>
+        <div class="legend" data-slot="legend"></div>
+      </section>
+
+      <section class="kpis" data-slot="kpis"></section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <h2>Average best-seller price by retailer</h2>
+          <p class="panel-sub">Ranked cheapest → most premium. Bars are brand-colored; hover for details.</p>
+        </div>
+        <div class="rank-chart" data-slot="rankchart"></div>
+      </section>
+
+      <div class="two-col">
+        <section class="panel">
+          <div class="panel-head">
+            <h2>Price spread</h2>
+            <p class="panel-sub">Min → 25th → median → 75th → max for each retailer (USD).</p>
+          </div>
+          <div class="spread" data-slot="spread"></div>
+        </section>
+
+        <section class="panel">
+          <div class="panel-head">
+            <h2>Average price trend</h2>
+            <p class="panel-sub">Rolling history from each scheduled collection.</p>
+          </div>
+          <div class="trend" data-slot="trend"></div>
+        </section>
+      </div>
+
+      <section class="panel">
+        <div class="panel-head">
+          <h2>Comparison table</h2>
+          <p class="panel-sub">Click any column header to sort.</p>
+        </div>
+        <div class="table-scroll">
+          <table class="cmp" data-slot="table"></table>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head row">
+          <div>
+            <h2>Best sellers</h2>
+            <p class="panel-sub">Top items collected per retailer, cheapest first.</p>
+          </div>
+          <div class="controls">
+            <input type="search" id="search" placeholder="Search all products…" />
+            <span data-slot="retailer-filter"></span>
+          </div>
+        </div>
+        <div class="products" data-slot="products"></div>
+      </section>
+    </template>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <p>
+          <strong>Fashion Price Watcher</strong> — a Bright Data hackathon build by
+          <a href="https://github.com/Nerdiology" target="_blank" rel="noopener">Nerdiology</a>.
+          Data collected via the Bright Data CLI (Web Unlocker · SERP API · Web Scraper API).
+          Prices are point-in-time snapshots for comparison only.
+        </p>
+      </div>
+    </footer>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
