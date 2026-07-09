@@ -158,6 +158,20 @@ table.cmp .num { font-variant-numeric: tabular-nums; }
 .badge.ok { color: var(--good); border-color: color-mix(in srgb, var(--good) 35%, transparent); }
 .badge.err { color: var(--bad); border-color: color-mix(in srgb, var(--bad) 35%, transparent); }
 
+/* Category matrix */
+table.matrix { width: 100%; border-collapse: collapse; font-size: 13px; min-width: 720px; }
+table.matrix th, table.matrix td { padding: 10px 12px; text-align: right; border-bottom: 1px solid var(--line); white-space: nowrap; }
+table.matrix th:first-child, table.matrix td:first-child { text-align: left; }
+table.matrix th { color: var(--faint); font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: .04em; }
+table.matrix td.cat { font-weight: 600; }
+table.matrix .num { font-variant-numeric: tabular-nums; color: var(--muted); }
+table.matrix td.best { color: var(--good); font-weight: 700; background: color-mix(in srgb, var(--good) 12%, transparent); border-radius: 6px; }
+table.matrix .dash { color: var(--faint); opacity: .5; }
+table.matrix tbody tr:hover { background: var(--panel-2); }
+table.matrix .swatch { display: inline-block; width: 9px; height: 9px; border-radius: 2px; margin-right: 6px; vertical-align: middle; }
+table.matrix .cheapest-cell { text-align: left; }
+table.matrix .pill { font-size: 11.5px; padding: 3px 9px; border-radius: 999px; background: color-mix(in srgb, var(--good) 16%, var(--panel-2)); color: var(--good); border: 1px solid color-mix(in srgb, var(--good) 30%, transparent); font-weight: 600; }
+
 /* Products */
 .controls { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
 .controls input[type="search"], .controls select {

@@ -56,6 +56,7 @@ function render(data, history) {
   renderLegend($("[data-slot=legend]", tpl), data);
   renderKpis($("[data-slot=kpis]", tpl), data);
   renderRankChart($("[data-slot=rankchart]", tpl), data);
+  renderMatrix($("[data-slot=matrix]", tpl), data);
   renderSpread($("[data-slot=spread]", tpl), data);
   renderTrend($("[data-slot=trend]", tpl), data, history);
   renderRetailerFilter($("[data-slot=retailer-filter]", tpl), data);
@@ -133,6 +134,88 @@ function renderRankChart(root, data) {
     row.appendChild(el("div", "rank-val", money(r.avg)));
     root.appendChild(row);
   }
+}
+
+/* ---------- category price index ---------- */
+// Order matters: first regex to match wins, so more specific categories
+// (sweatshirt, dress) sit ahead of the broad "shirt/top" bucket.
+const CATEGORIES = [
+  { id: "outer", label: "Outerwear & Jackets", re: /jacket|coat|blazer|parka|trench|gilet|puffer|overshirt|\bvest\b/i },
+  { id: "knit", label: "Knitwear & Hoodies", re: /knit|sweater|jumper|cardigan|hoodie|sweatshirt|fleece|pullover/i },
+  { id: "dress", label: "Dresses", re: /dress|gown/i },
+  { id: "skirt", label: "Skirts", re: /skirt/i },
+  { id: "pants", label: "Trousers, Jeans & Shorts", re: /jean|trouser|pant|legging|slack|jogger|chino|cargo|short/i },
+  { id: "shoes", label: "Shoes", re: /shoe|sneaker|boot|sandal|trainer|heel|loafer|slipper/i },
+  { id: "acc", label: "Accessories", re: /bag|belt|necklace|choker|bracelet|earring|scarf|hat|\bcap\b|sock|hair|jewel|glove|sunglass/i },
+  { id: "top", label: "Tops, T-Shirts & Blouses", re: /t-?shirt|\btee\b|tank|top|blouse|cami|bodysuit|shirt/i },
+];
+
+function classify(name) {
+  for (const c of CATEGORIES) if (c.re.test(name)) return c.id;
+  return null;
+}
+
+function renderMatrix(root, data) {
+  const retailers = (data.summary.ranking || []).map((r) => data.retailers.find((x) => x.id === r.id)).filter(Boolean);
+  if (!retailers.length) {
+    root.closest(".panel").style.display = "none";
+    return;
+  }
+  // cat -> retailerId -> {sum,count}
+  const grid = {};
+  for (const r of retailers) {
+    for (const p of r.products || []) {
+      const cat = classify(p.name);
+      if (!cat) continue;
+      (grid[cat] ||= {});
+      (grid[cat][r.id] ||= { sum: 0, count: 0 });
+      grid[cat][r.id].sum += p.price;
+      grid[cat][r.id].count++;
+    }
+  }
+  const cats = CATEGORIES.filter((c) => grid[c.id] && Object.keys(grid[c.id]).length >= 2); // need ≥2 retailers to compare
+
+  const thead = el("thead");
+  const htr = el("tr");
+  htr.appendChild(el("th", null, "Category"));
+  for (const r of retailers) {
+    const th = el("th", null, `<span class="swatch" style="background:${r.color}"></span>${esc(r.name)}`);
+    htr.appendChild(th);
+  }
+  htr.appendChild(el("th", null, "Cheapest"));
+  thead.appendChild(htr);
+
+  const tbody = el("tbody");
+  for (const c of cats) {
+    const tr = el("tr");
+    tr.appendChild(el("td", "cat", esc(c.label)));
+    const avgs = retailers.map((r) => {
+      const cell = grid[c.id][r.id];
+      return cell ? cell.sum / cell.count : null;
+    });
+    const min = Math.min(...avgs.filter((v) => v != null));
+    let cheapestName = "—";
+    retailers.forEach((r, i) => {
+      const v = avgs[i];
+      const td = el("td", "num");
+      if (v == null) {
+        td.innerHTML = '<span class="dash">·</span>';
+      } else {
+        td.textContent = money(v);
+        if (v === min) {
+          td.classList.add("best");
+          cheapestName = r.name;
+        }
+      }
+      tr.appendChild(td);
+    });
+    const badge = el("td", "cheapest-cell", `<span class="pill">${esc(cheapestName)} · ${money(min)}</span>`);
+    tr.appendChild(badge);
+    tbody.appendChild(tr);
+  }
+  root.innerHTML = "";
+  root.appendChild(thead);
+  root.appendChild(tbody);
 }
 
 function renderSpread(root, data) {

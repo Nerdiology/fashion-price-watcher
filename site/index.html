@@ -9,6 +9,13 @@
       content="Live price comparison of best-selling items across H&M, Zara, Uniqlo, Mango, ASOS, COS, Gap, SHEIN, Nike and adidas — powered by the Bright Data web-data platform."
     />
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏷️</text></svg>" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Fashion Price Watcher" />
+    <meta property="og:description" content="Live best-seller price comparison across H&M, Zara, Uniqlo, Mango, ASOS, COS, Nike and more — powered by Bright Data." />
+    <meta property="og:url" content="https://nerdiology.github.io/fashion-price-watcher/" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Fashion Price Watcher" />
+    <meta name="twitter:description" content="Where is each fashion category cheapest? Live cross-retailer price comparison, powered by Bright Data." />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
@@ -53,6 +60,19 @@
           <p class="panel-sub">Ranked cheapest → most premium. Bars are brand-colored; hover for details.</p>
         </div>
         <div class="rank-chart" data-slot="rankchart"></div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <h2>Category price index — where is each item cheapest?</h2>
+          <p class="panel-sub">
+            Average price of each clothing category at each retailer. The cheapest retailer in every row is
+            highlighted — this is the real "where should I buy a T-shirt / dress / jeans" answer.
+          </p>
+        </div>
+        <div class="table-scroll">
+          <table class="matrix" data-slot="matrix"></table>
+        </div>
       </section>
 
       <div class="two-col">
