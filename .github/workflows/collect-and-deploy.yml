@@ -48,6 +48,7 @@ jobs:
         env:
           BRIGHTDATA_API_KEY: ${{ secrets.BRIGHTDATA_API_KEY }}
           BRIGHTDATA_UNLOCKER_ZONE: ${{ secrets.BRIGHTDATA_UNLOCKER_ZONE || 'cli_unlocker' }}
+          BRIGHTDATA_SERP_ZONE: ${{ secrets.BRIGHTDATA_SERP_ZONE || 'cli_unlocker' }}
         run: node collector/index.js --limit 48
 
       - name: Commit refreshed snapshot
