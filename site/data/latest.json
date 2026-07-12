@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-11T07:44:12.267Z",
+  "generatedAt": "2026-07-12T08:05:19.400Z",
   "currency": "USD",
   "poweredBy": "Bright Data — Web Unlocker, SERP API & Web Scraper API",
   "retailers": [
@@ -9,39 +9,39 @@
       "color": "#E50010",
       "url": "https://www2.hm.com/en_us/women/seasonal-trending/best-sellers.html",
       "domain": "hm.com",
-      "status": "stale",
-      "stale": true,
-      "error": "Scraping https://www2.hm.com/en_us/women/seasonal-trending/best-sellers.html...\nError: A global adaptive rate limit has been applied. Please retry in a few seconds.\n (served last good data)",
+      "status": "ok",
+      "stale": false,
+      "error": null,
       "collectedFrom": "https://www2.hm.com/en_us/women/seasonal-trending/best-sellers.html",
       "method": "web-unlocker/markdown",
       "productCount": 31,
       "stats": {
         "count": 31,
         "min": 9.99,
-        "max": 59.99,
-        "avg": 24.05,
+        "max": 42.99,
+        "avg": 19.96,
         "median": 19.99,
         "p25": 12.99,
-        "p75": 29.99
+        "p75": 24.99
       },
       "cheapest": {
-        "name": "Draped Jersey Top",
+        "name": "Cotton T-shirt",
         "price": 9.99,
         "currency": "USD",
-        "url": "https://www2.hm.com/en_us/productpage.1347112003.html"
+        "url": "https://www2.hm.com/en_us/productpage.0963662002.html"
       },
       "products": [
+        {
+          "name": "Cotton T-shirt",
+          "price": 9.99,
+          "currency": "USD",
+          "url": "https://www2.hm.com/en_us/productpage.0963662002.html"
+        },
         {
           "name": "Draped Jersey Top",
           "price": 9.99,
           "currency": "USD",
           "url": "https://www2.hm.com/en_us/productpage.1347112003.html"
-        },
-        {
-          "name": "Cotton T-shirt",
-          "price": 9.99,
-          "currency": "USD",
-          "url": "https://www2.hm.com/en_us/productpage.0963662139.html"
         },
         {
           "name": "Asymmetric Halterneck Top",
@@ -50,16 +50,22 @@
           "url": "https://www2.hm.com/en_us/productpage.1341064001.html"
         },
         {
-          "name": "Lace-Trimmed Tank Top",
+          "name": "Ribbed Tank Top",
           "price": 9.99,
           "currency": "USD",
-          "url": "https://www2.hm.com/en_us/productpage.1343849001.html"
+          "url": "https://www2.hm.com/en_us/productpage.1257593049.html"
         },
         {
           "name": "Ribbed Cotton Tank Top",
           "price": 9.99,
           "currency": "USD",
           "url": "https://www2.hm.com/en_us/productpage.1341763006.html"
+        },
+        {
+          "name": "Ribbed V-Neck Tank Top",
+          "price": 9.99,
+          "currency": "USD",
+          "url": "https://www2.hm.com/en_us/productpage.1343831001.html"
         },
         {
           "name": "Oversized T-shirt",
@@ -84,6 +90,12 @@
           "price": 12.99,
           "currency": "USD",
           "url": "https://www2.hm.com/en_us/productpage.1152096001.html"
+        },
+        {
+          "name": "Textured One-Shoulder Top",
+          "price": 12.99,
+          "currency": "USD",
+          "url": "https://www2.hm.com/en_us/productpage.1340035002.html"
         },
         {
           "name": "Ribbed Button-Front Top",
@@ -116,22 +128,22 @@
           "url": "https://www2.hm.com/en_us/productpage.1347171003.html"
         },
         {
-          "name": "Printed Cotton T-Shirt",
-          "price": 19.99,
-          "currency": "USD",
-          "url": "https://www2.hm.com/en_us/productpage.1357162002.html"
-        },
-        {
           "name": "Wide-leg Joggers",
           "price": 19.99,
           "currency": "USD",
           "url": "https://www2.hm.com/en_us/productpage.1199249001.html"
         },
         {
-          "name": "Oversized Printed T-Shirt",
+          "name": "Printed Cotton T-Shirt",
           "price": 19.99,
           "currency": "USD",
-          "url": "https://www2.hm.com/en_us/productpage.1341688019.html"
+          "url": "https://www2.hm.com/en_us/productpage.1357162003.html"
+        },
+        {
+          "name": "Crinkled Wrap Top",
+          "price": 19.99,
+          "currency": "USD",
+          "url": "https://www2.hm.com/en_us/productpage.1348994002.html"
         },
         {
           "name": "Drawstring-Detail Camisole Top",
@@ -140,10 +152,28 @@
           "url": "https://www2.hm.com/en_us/productpage.1361094001.html"
         },
         {
+          "name": "Ponte Capri Pants",
+          "price": 24.99,
+          "currency": "USD",
+          "url": "https://www2.hm.com/en_us/productpage.1316954001.html"
+        },
+        {
           "name": "Fine-Knit Strappy Top",
           "price": 24.99,
           "currency": "USD",
-          "url": "https://www2.hm.com/en_us/productpage.1340345001.html"
+          "url": "https://www2.hm.com/en_us/productpage.1340345002.html"
+        },
+        {
+          "name": "Puff-Sleeved Blouse",
+          "price": 24.99,
+          "currency": "USD",
+          "url": "https://www2.hm.com/en_us/productpage.1330168007.html"
+        },
+        {
+          "name": "3-Pack Cotton Tank Tops",
+          "price": 24.99,
+          "currency": "USD",
+          "url": "https://www2.hm.com/en_us/productpage.1322041001.html"
         },
         {
           "name": "Raw-Edge Denim Shorts",
@@ -152,10 +182,10 @@
           "url": "https://www2.hm.com/en_us/productpage.1337692007.html"
         },
         {
-          "name": "Ponte Capri Pants",
+          "name": "Fine-Knit One-Shoulder Top",
           "price": 24.99,
           "currency": "USD",
-          "url": "https://www2.hm.com/en_us/productpage.1316954001.html"
+          "url": "https://www2.hm.com/en_us/productpage.1338432004.html"
         },
         {
           "name": "Slacks",
@@ -164,28 +194,16 @@
           "url": "https://www2.hm.com/en_us/productpage.1295947001.html"
         },
         {
-          "name": "Lace-Trimmed Viscose Top",
-          "price": 29.99,
-          "currency": "USD",
-          "url": "https://www2.hm.com/en_us/productpage.1347695002.html"
-        },
-        {
           "name": "Linen-Blend Slip Skirt",
           "price": 29.99,
           "currency": "USD",
           "url": "https://www2.hm.com/en_us/productpage.1348523001.html"
         },
         {
-          "name": "A-Line Strappy Dress",
+          "name": "Dressy Linen-Blend Shorts",
           "price": 29.99,
           "currency": "USD",
-          "url": "https://www2.hm.com/en_us/productpage.1345590001.html"
-        },
-        {
-          "name": "Satin Drawstring Pants",
-          "price": 39.99,
-          "currency": "USD",
-          "url": "https://www2.hm.com/en_us/productpage.1347595001.html"
+          "url": "https://www2.hm.com/en_us/productpage.1333444001.html"
         },
         {
           "name": "Linen Shirt",
@@ -198,24 +216,6 @@
           "price": 42.99,
           "currency": "USD",
           "url": "https://www2.hm.com/en_us/productpage.1343725001.html"
-        },
-        {
-          "name": "Bermuda Shorts with Eyelet Embroidery",
-          "price": 44.99,
-          "currency": "USD",
-          "url": "https://www2.hm.com/en_us/productpage.1350089001.html"
-        },
-        {
-          "name": "Lace-Trimmed Satin Skirt",
-          "price": 49.99,
-          "currency": "USD",
-          "url": "https://www2.hm.com/en_us/productpage.1330277002.html"
-        },
-        {
-          "name": "Linen-Blend Halterneck Dress",
-          "price": 59.99,
-          "currency": "USD",
-          "url": "https://www2.hm.com/en_us/productpage.1346188002.html"
         }
       ]
     },
@@ -306,16 +306,16 @@
       "status": "ok",
       "stale": false,
       "error": null,
-      "collectedFrom": "https://www.uniqlo.com/us/en/spl/ranking/women?srsltid=AfmBOoq6vhEZEdSG6dEEgyir-LiEoof4sVFTYsmHwHkOqYTFD6VgXWKt",
+      "collectedFrom": "https://www.uniqlo.com/us/en/spl/ranking/women?srsltid=AfmBOopqt70PkdmhcOGcI4vv9PLUxBaPt0piMFveDijkqyr0miFiFloH",
       "method": "serp-discovery",
-      "productCount": 8,
+      "productCount": 6,
       "stats": {
-        "count": 8,
+        "count": 6,
         "min": 14.9,
-        "max": 49.9,
-        "avg": 31.78,
+        "max": 39.9,
+        "avg": 29.9,
         "median": 32.4,
-        "p25": 23.65,
+        "p25": 21.15,
         "p75": 39.9
       },
       "cheapest": {
@@ -344,12 +344,6 @@
           "url": "https://www.uniqlo.com/us/en/products/E455365-000/00?colorDisplayCode=63"
         },
         {
-          "name": "Crew Neck T-Shirt",
-          "price": 24.9,
-          "currency": "USD",
-          "url": "https://www.uniqlo.com/us/en/products/E422992-000/00?colorDisplayCode=23"
-        },
-        {
           "name": "Wide Sweat Shorts",
           "price": 39.9,
           "currency": "USD",
@@ -366,12 +360,6 @@
           "price": 39.9,
           "currency": "USD",
           "url": "https://www.uniqlo.com/us/en/products/E483042-000/00?colorDisplayCode=31"
-        },
-        {
-          "name": "Wide Sweatpants",
-          "price": 49.9,
-          "currency": "USD",
-          "url": "https://www.uniqlo.com/us/en/products/E471809-000/00?colorDisplayCode=31"
         }
       ]
     },
@@ -381,51 +369,81 @@
       "color": "#F59E0B",
       "url": "https://shop.mango.com/us/en/c/women/new-now_d5f2a6e6",
       "domain": "mango.com",
-      "status": "stale",
-      "stale": true,
-      "error": "Scraping https://shop.mango.com/us/en/c/women/new-now_d5f2a6e6...\nError: Unexpected result\n (served last good data)",
+      "status": "ok",
+      "stale": false,
+      "error": null,
       "collectedFrom": "https://shop.mango.com/us/en/c/women/new-now_d5f2a6e6",
       "method": "web-unlocker/markdown",
-      "productCount": 10,
+      "productCount": 12,
       "stats": {
-        "count": 10,
+        "count": 12,
         "min": 35.99,
-        "max": 249.99,
-        "avg": 109.59,
-        "median": 99.99,
-        "p25": 82.49,
-        "p75": 114.99
+        "max": 429.99,
+        "avg": 103.99,
+        "median": 69.99,
+        "p25": 48.99,
+        "p75": 77.49
       },
       "cheapest": {
-        "name": "High-waisted barrel jeans - Article without model",
+        "name": "Knit striped sweater - Article without model",
         "price": 35.99,
         "currency": "USD",
-        "url": "https://shop.mango.com/us/en/p/women/jeans/balloon/high-waisted-barrel-jeans/27013340/32/00"
+        "url": "https://shop.mango.com/us/en/p/women/sweaters-and-cardigans/plus-sizes/knit-striped-sweater/37021391/70/00"
       },
       "products": [
         {
-          "name": "High-waisted barrel jeans - Article without model",
+          "name": "Knit striped sweater - Article without model",
           "price": 35.99,
           "currency": "USD",
-          "url": "https://shop.mango.com/us/en/p/women/jeans/balloon/high-waisted-barrel-jeans/27013340/32/00"
+          "url": "https://shop.mango.com/us/en/p/women/sweaters-and-cardigans/plus-sizes/knit-striped-sweater/37021391/70/00"
         },
         {
-          "name": "High-waisted barrel jeans - Article without model",
+          "name": "Mid-rise balloon jeans - Article without model",
+          "price": 35.99,
+          "currency": "USD",
+          "url": "https://shop.mango.com/us/en/p/women/jeans/balloon/mid-rise-balloon-jeans/27043298/37/00"
+        },
+        {
+          "name": "Beaded necklace - Article without model",
+          "price": 45.99,
+          "currency": "USD",
+          "url": "https://shop.mango.com/us/en/p/women/jewellery/necklaces/beaded-necklace/37011351/46/00"
+        },
+        {
+          "name": "Slim-fit cuffed Bermuda shorts - Article without model",
+          "price": 49.99,
+          "currency": "USD",
+          "url": "https://shop.mango.com/us/en/p/men/shorts/denim-bermuda-shorts/slim-fit-cuffed-bermuda-shorts/37021414/TN/00"
+        },
+        {
+          "name": "Mixed asymmetrical top - Article without model",
           "price": 69.99,
           "currency": "USD",
-          "url": "https://shop.mango.com/us/en/p/women/jeans/balloon/high-waisted-barrel-jeans/27013340/32/00"
+          "url": "https://shop.mango.com/us/en/p/women/tops/party/mixed-asymmetrical-top/37072527/30/00"
         },
         {
-          "name": "Leather sandal with crossed straps - Article without model",
-          "price": 79.99,
+          "name": "Pointed-heel sandals - Article without model",
+          "price": 69.99,
           "currency": "USD",
-          "url": "https://shop.mango.com/us/en/p/men/shoes/leather/leather-sandal-with-crossed-straps/27016713/30/00"
+          "url": "https://shop.mango.com/us/en/p/women/shoes/heeled-sandals/pointed-heel-sandals/37082938/80/00"
         },
         {
-          "name": "Polka-dot skirt with asymmetrical hem - Article without model",
-          "price": 89.99,
+          "name": "Slim-fit cuffed Bermuda shorts - Article without model",
+          "price": 69.99,
           "currency": "USD",
-          "url": "https://shop.mango.com/us/en/p/women/skirts/long/polka-dot-skirt-with-asymmetrical-hem/37061482/56/00"
+          "url": "https://shop.mango.com/us/en/p/men/shorts/denim-bermuda-shorts/slim-fit-cuffed-bermuda-shorts/37021414/TN/00"
+        },
+        {
+          "name": "Knit striped sweater - Article without model",
+          "price": 69.99,
+          "currency": "USD",
+          "url": "https://shop.mango.com/us/en/p/women/sweaters-and-cardigans/plus-sizes/knit-striped-sweater/37021391/70/00"
+        },
+        {
+          "name": "Mid-rise balloon jeans - Article without model",
+          "price": 69.99,
+          "currency": "USD",
+          "url": "https://shop.mango.com/us/en/p/women/jeans/balloon/mid-rise-balloon-jeans/27043298/37/00"
         },
         {
           "name": "Beaded brazilian bikini briefs - Article without model",
@@ -434,34 +452,16 @@
           "url": "https://shop.mango.com/us/en/p/women/bikinis-and-swimsuits/bikini-bottoms/beaded-brazilian-bikini-briefs/37091449/43/00"
         },
         {
-          "name": "Printed triangle bikini top - Article without model",
-          "price": 99.99,
+          "name": "Suede jacket with buttons - Article without model",
+          "price": 199.99,
           "currency": "USD",
-          "url": "https://shop.mango.com/us/en/p/women/bikinis-and-swimsuits/bikini-tops/printed-triangle-bikini-top/37081449/43/00"
+          "url": "https://shop.mango.com/us/en/p/women/jackets/leather/suede-jacket-with-buttons/27051332/28/00"
         },
         {
-          "name": "Jacket with lapels and tie belt - Article without model",
-          "price": 99.99,
+          "name": "Suede jacket with buttons - Article without model",
+          "price": 429.99,
           "currency": "USD",
-          "url": "https://shop.mango.com/us/en/p/women/jackets/jacket-with-lapels-and-tie-belt/27084448/05/00"
-        },
-        {
-          "name": "Leather sandal with crossed straps - Article without model",
-          "price": 119.99,
-          "currency": "USD",
-          "url": "https://shop.mango.com/us/en/p/men/shoes/leather/leather-sandal-with-crossed-straps/27016713/30/00"
-        },
-        {
-          "name": "Crocheted dress with scalloped hem - Article without model",
-          "price": 149.99,
-          "currency": "USD",
-          "url": "https://shop.mango.com/us/en/p/women/dresses-and-jumpsuits/casual/crocheted-dress-with-scalloped-hem/37072008/01/00"
-        },
-        {
-          "name": "Jacket with lapels and tie belt - Article without model",
-          "price": 249.99,
-          "currency": "USD",
-          "url": "https://shop.mango.com/us/en/p/women/jackets/jacket-with-lapels-and-tie-belt/27084448/05/00"
+          "url": "https://shop.mango.com/us/en/p/women/jackets/leather/suede-jacket-with-buttons/27051332/28/00"
         }
       ]
     },
@@ -481,10 +481,10 @@
         "count": 48,
         "min": 37.99,
         "max": 329,
-        "avg": 80.54,
-        "median": 60,
-        "p25": 48.75,
-        "p75": 73.5
+        "avg": 83.89,
+        "median": 61.5,
+        "p25": 51.25,
+        "p75": 74.99
       },
       "cheapest": {
         "name": "ASOS DESIGN compact cami bodysuit with wired plunge neck in buttermilk $37.99 MORE COLORS",
@@ -536,7 +536,7 @@
           "url": "https://www.asos.com/us/missyempire/missyempire-soft-touch-twisted-back-detail-crop-top-in-white/prd/211036034#colourWayId-211036039"
         },
         {
-          "name": "Miss Selfridge tie shoulders top in blue polka-dot print $44.99 MORE COLORS",
+          "name": "Miss Selfridge tie shoulders top in blue polka-dot print $44.99 MORE COLORS Selling fast",
           "price": 44.99,
           "currency": "USD",
           "url": "https://www.asos.com/us/miss-selfridge/miss-selfridge-tie-shoulders-top-in-blue-polka-dot-print/prd/211333231#colourWayId-211333234"
@@ -554,13 +554,7 @@
           "url": "https://www.asos.com/us/asos-design/asos-design-crochet-knit-fringe-mini-dress-in-ecru/prd/211134480#colourWayId-211134487"
         },
         {
-          "name": "ASOS DESIGN Maxi skirt with drape side detail in lilac $47.99 MIX & MATCH Selling fast",
-          "price": 47.99,
-          "currency": "USD",
-          "url": "https://www.asos.com/us/asos-design/asos-design-draped-set-in-lilac/grp/211455470#colourWayId-211095773&productId-211095771"
-        },
-        {
-          "name": "Topshop high neck twist back detail tank in dark chocolate $48.00 Selling fast",
+          "name": "Topshop high neck twist back detail tank in dark chocolate $48.00",
           "price": 48,
           "currency": "USD",
           "url": "https://www.asos.com/us/topshop/topshop-high-neck-twist-back-detail-tank-in-dark-chocolate/prd/209958504#colourWayId-209958525"
@@ -578,13 +572,13 @@
           "url": "https://www.asos.com/us/motel/motel-samwell-lace-halter-top-in-ivory/prd/210735425#colourWayId-210735426"
         },
         {
-          "name": "Miss Selfridge crochet maxi dress in chocolate $54.99",
+          "name": "Miss Selfridge crochet maxi dress in chocolate $54.99 Selling fast",
           "price": 54.99,
           "currency": "USD",
           "url": "https://www.asos.com/us/miss-selfridge/miss-selfridge-crochet-maxi-dress-in-chocolate/prd/211353992#colourWayId-211353993"
         },
         {
-          "name": "ASOS DESIGN volume midi skirt in cotton in black $54.99 Selling fast",
+          "name": "ASOS DESIGN volume midi skirt in cotton in black $54.99",
           "price": 54.99,
           "currency": "USD",
           "url": "https://www.asos.com/us/asos-design/asos-design-volume-midi-skirt-in-cotton-in-black/prd/210973384#colourWayId-210973392"
@@ -620,7 +614,7 @@
           "url": "https://www.asos.com/us/motel/motel-kiwari-waffle-knit-halter-top-in-stone/prd/210467063#colourWayId-210467065"
         },
         {
-          "name": "ASOS DESIGN sheer crochet beach lace tie-side maxi skirt $59.99 MORE COLORS",
+          "name": "ASOS DESIGN sheer crochet beach lace tie-side maxi skirt $59.99 MORE COLORS Selling fast",
           "price": 59.99,
           "currency": "USD",
           "url": "https://www.asos.com/us/asos-design/asos-design-sheer-crochet-beach-lace-tie-side-maxi-skirt/prd/210498563#colourWayId-210498564"
@@ -632,7 +626,7 @@
           "url": "https://www.asos.com/us/asos-design/asos-design-lace-rouleaux-loop-detail-vest-in-yellow/prd/211164514#colourWayId-211164520"
         },
         {
-          "name": "Miss Selfridge crochet maxi dress in khaki striped print $59.99 MORE COLORS",
+          "name": "Miss Selfridge crochet maxi dress in khaki striped print $59.99 MORE COLORS Selling fast",
           "price": 59.99,
           "currency": "USD",
           "url": "https://www.asos.com/us/miss-selfridge/miss-selfridge-crochet-maxi-dress-in-khaki-striped-print/prd/211346753#colourWayId-211346754"
@@ -686,7 +680,7 @@
           "url": "https://www.asos.com/us/asos-design/asos-design-bandeau-vest-with-wrap-neck-scarf-detail/prd/210918533#colourWayId-210918536"
         },
         {
-          "name": "Missyempire mesh overlay strapless maxi dress in orange ombré $66.00",
+          "name": "Missyempire mesh overlay strapless maxi dress in orange ombré $66.00 Selling fast",
           "price": 66,
           "currency": "USD",
           "url": "https://www.asos.com/us/missyempire/missyempire-mesh-overlay-strapless-maxi-dress-in-orange-ombre/prd/211036035#colourWayId-211036038"
@@ -746,7 +740,7 @@
           "url": "https://www.asos.com/us/asos-design/asos-design-crochet-patchwork-open-stitch-maxi-dress-with-fringe-in-chocolate/prd/210993612#colourWayId-210993618"
         },
         {
-          "name": "ASOS DESIGN high neck low back ruffle maxi dress in lime $129.00",
+          "name": "ASOS DESIGN high neck low back ruffle maxi dress in lime $129.00 Selling fast",
           "price": 129,
           "currency": "USD",
           "url": "https://www.asos.com/us/asos-design/asos-design-high-neck-low-back-ruffle-maxi-dress-in-lime/prd/210425912#colourWayId-210425913"
@@ -762,6 +756,12 @@
           "price": 139,
           "currency": "USD",
           "url": "https://www.asos.com/us/asos-design/asos-design-scattered-paillette-sequins-scoop-neck-maxi-dress-in-yellow/prd/210484402#colourWayId-210484419"
+        },
+        {
+          "name": "ARRANGE embellished disc sequin square neck top in buttermilk $209.00 MORE COLORS",
+          "price": 209,
+          "currency": "USD",
+          "url": "https://www.asos.com/us/arrange/arrange-embellished-disc-sequin-square-neck-top-in-buttermilk/prd/209933821#colourWayId-209933829"
         },
         {
           "name": "ASOS DESIGN faux-pearl tassel fringe midaxi dress in pale gray $269.00 Selling fast",
@@ -789,9 +789,9 @@
       "color": "#8B93A7",
       "url": "https://www.cos.com/en_usd/women/bestsellers.html",
       "domain": "cos.com",
-      "status": "ok",
-      "stale": false,
-      "error": null,
+      "status": "stale",
+      "stale": true,
+      "error": "Scraping https://www.cos.com/en_usd/women/bestsellers.html...\nError: Captcha resolve failed\n (served last good data)",
       "collectedFrom": "https://www.cos.com/en-us/women/most-popular",
       "method": "serp-discovery",
       "productCount": 27,
@@ -1129,28 +1129,28 @@
         "id": "hm",
         "name": "H&M",
         "color": "#E50010",
-        "avg": 24.05,
+        "avg": 19.96,
         "median": 19.99,
         "min": 9.99,
-        "max": 59.99,
+        "max": 42.99,
         "count": 31
       },
       {
         "id": "uniqlo",
         "name": "Uniqlo",
         "color": "#14B8A6",
-        "avg": 31.78,
+        "avg": 29.9,
         "median": 32.4,
         "min": 14.9,
-        "max": 49.9,
-        "count": 8
+        "max": 39.9,
+        "count": 6
       },
       {
         "id": "asos",
         "name": "ASOS",
         "color": "#6366F1",
-        "avg": 80.54,
-        "median": 60,
+        "avg": 83.89,
+        "median": 61.5,
         "min": 37.99,
         "max": 329,
         "count": 48
@@ -1189,42 +1189,42 @@
         "id": "mango",
         "name": "Mango",
         "color": "#F59E0B",
-        "avg": 109.59,
-        "median": 99.99,
+        "avg": 103.99,
+        "median": 69.99,
         "min": 35.99,
-        "max": 249.99,
-        "count": 10
+        "max": 429.99,
+        "count": 12
       }
     ],
     "cheapestRetailer": {
       "id": "hm",
       "name": "H&M",
       "color": "#E50010",
-      "avg": 24.05,
+      "avg": 19.96,
       "median": 19.99,
       "min": 9.99,
-      "max": 59.99,
+      "max": 42.99,
       "count": 31
     },
     "priciestRetailer": {
       "id": "mango",
       "name": "Mango",
       "color": "#F59E0B",
-      "avg": 109.59,
-      "median": 99.99,
+      "avg": 103.99,
+      "median": 69.99,
       "min": 35.99,
-      "max": 249.99,
-      "count": 10
+      "max": 429.99,
+      "count": 12
     },
-    "overallAvg": 70.85,
-    "overallMedian": 59.99,
+    "overallAvg": 71.63,
+    "overallMedian": 59.9,
     "cheapestItem": {
       "retailer": "H&M",
       "retailerId": "hm",
-      "name": "Draped Jersey Top",
+      "name": "Cotton T-shirt",
       "price": 9.99,
       "currency": "USD",
-      "url": "https://www2.hm.com/en_us/productpage.1347112003.html"
+      "url": "https://www2.hm.com/en_us/productpage.0963662002.html"
     }
   }
 }
