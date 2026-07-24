@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T08:27:20.446Z",
+  "generatedAt": "2026-07-24T08:16:44.642Z",
   "currency": "USD",
   "poweredBy": "Bright Data — Web Unlocker, SERP API & Web Scraper API",
   "retailers": [
@@ -219,81 +219,81 @@
       "color": "#C08457",
       "url": "https://www.zara.com/us/en/woman-new-in-l1180.html",
       "domain": "zara.com",
-      "status": "stale",
-      "stale": true,
-      "error": "Scraping https://www.zara.com/us/en/woman-new-in-l1180.html...\nError: Navigation failed: Network connection was closed by other party.\n (served last good data)",
+      "status": "ok",
+      "stale": false,
+      "error": null,
       "collectedFrom": "https://www.zara.com/us/en/woman-new-in-l1180.html",
       "method": "web-unlocker/json-ld",
       "productCount": 9,
       "stats": {
         "count": 9,
-        "min": 35.9,
-        "max": 169,
-        "avg": 89.16,
-        "median": 79.9,
-        "p25": 49.9,
-        "p75": 129
+        "min": 29.9,
+        "max": 79.9,
+        "avg": 53.46,
+        "median": 49.9,
+        "p25": 39.9,
+        "p75": 59.9
       },
       "cheapest": {
-        "name": "5-PACK OF METALLIC RHINESTONE BRACELETS",
-        "price": 35.9,
+        "name": "PACK OF 2 SPARKLY EAR CUFF EARRINGS",
+        "price": 29.9,
         "currency": "USD",
-        "url": "https://www.zara.com/us/en/5-pack-of-metallic-rhinestone-bracelets-p04736261.html"
+        "url": "https://www.zara.com/us/en/pack-of-2-sparkly-ear-cuff-earrings-p04548245.html"
       },
       "products": [
         {
-          "name": "5-PACK OF METALLIC RHINESTONE BRACELETS",
+          "name": "PACK OF 2 SPARKLY EAR CUFF EARRINGS",
+          "price": 29.9,
+          "currency": "USD",
+          "url": "https://www.zara.com/us/en/pack-of-2-sparkly-ear-cuff-earrings-p04548245.html"
+        },
+        {
+          "name": "STRETCH CORSET TOP",
           "price": 35.9,
           "currency": "USD",
-          "url": "https://www.zara.com/us/en/5-pack-of-metallic-rhinestone-bracelets-p04736261.html"
+          "url": "https://www.zara.com/us/en/stretch-corset-top-p05584806.html"
         },
         {
-          "name": "METAL JEWEL BELT",
+          "name": "ZIP POCKET PANTS",
+          "price": 39.9,
+          "currency": "USD",
+          "url": "https://www.zara.com/us/en/zip-pocket-pants-p06050803.html"
+        },
+        {
+          "name": "STRETCH ZIP MINI DRESS",
+          "price": 45.9,
+          "currency": "USD",
+          "url": "https://www.zara.com/us/en/stretch-zipper-mini-dress-p05584801.html"
+        },
+        {
+          "name": "STRETCH BAND HALTER TOP",
           "price": 49.9,
           "currency": "USD",
-          "url": "https://www.zara.com/us/en/metal-jewel-belt-p01011207.html"
+          "url": "https://www.zara.com/us/en/stretch-halter-band-top-p05063810.html"
         },
         {
-          "name": "METALLIC MESH SPARKLE CHOKER",
-          "price": 49.9,
+          "name": "TRF WIDE LEG LOW RISE JEANS",
+          "price": 59.9,
           "currency": "USD",
-          "url": "https://www.zara.com/us/en/sparkly-mesh-choker-p01856305.html"
+          "url": "https://www.zara.com/us/en/trf-wide-leg-low-rise-jeans-p08727220.html"
         },
         {
-          "name": "ZW COLLECTION EMBROIDERED SHIRT",
-          "price": 69.9,
+          "name": "LOW-RISE STRAIGHT LEG PANTS",
+          "price": 59.9,
           "currency": "USD",
-          "url": "https://www.zara.com/us/en/zw-collection-embroidered-shirt-p05344020.html"
+          "url": "https://www.zara.com/us/en/low-rise-straight-leg-pants-p03067449.html"
         },
         {
-          "name": "ZW COLLECTION HIGH RISE TAPERED FLORAL JEANS",
+          "name": "ASYMMETRIC NECK MINI DRESS",
           "price": 79.9,
           "currency": "USD",
-          "url": "https://www.zara.com/us/en/zw-collection-high-rise-tapered-floral-jeans-p09632243.html"
+          "url": "https://www.zara.com/us/en/asymmetric-neckline-mini-dress-p02937111.html"
         },
         {
-          "name": "ZW COLLECTION EMBROIDERED ORGANZA SHIRT",
-          "price": 89.9,
+          "name": "SATIN EFFECT VOLUMINOUS MINI DRESS",
+          "price": 79.9,
           "currency": "USD",
-          "url": "https://www.zara.com/us/en/embroidered-organza-shirt-zw-collection-p05107241.html"
-        },
-        {
-          "name": "ZW COLLECTION JACQUARD BLAZER",
-          "price": 129,
-          "currency": "USD",
-          "url": "https://www.zara.com/us/en/zw-collection-jacquard-blazer-p06895250.html"
-        },
-        {
-          "name": "ZW COLLECTION SEQUIN SLIP DRESS",
-          "price": 129,
-          "currency": "USD",
-          "url": "https://www.zara.com/us/en/zw-collection-sequin-slip-dress-p05344242.html"
-        },
-        {
-          "name": "ZW COLLECTION FRINGED JACKET",
-          "price": 169,
-          "currency": "USD",
-          "url": "https://www.zara.com/us/en/zw-collection-fringed-jacket-p06895253.html"
+          "url": "https://www.zara.com/us/en/voluminous-satin-mini-dress-p02936301.html"
         }
       ]
     },
@@ -303,9 +303,9 @@
       "color": "#14B8A6",
       "url": "https://www.uniqlo.com/us/en/women/featured/new-arrivals",
       "domain": "uniqlo.com",
-      "status": "ok",
-      "stale": false,
-      "error": null,
+      "status": "stale",
+      "stale": true,
+      "error": "no products parsed (served last good data)",
       "collectedFrom": "https://www.uniqlo.com/us/en/spl/ranking/women?srsltid=AfmBOop3ODkLL-0m0ax7Rn5_7Au0VaD7yuHkFAzNm8VPZwgyJouldAC0",
       "method": "serp-discovery",
       "productCount": 8,
@@ -384,96 +384,72 @@
       "status": "ok",
       "stale": false,
       "error": null,
-      "collectedFrom": "https://shop.mango.com/us/en/c/women/new-now_d5f2a6e6",
-      "method": "web-unlocker/markdown",
-      "productCount": 12,
+      "collectedFrom": "https://shop.mango.com/us/en/c/women/best-sellers/986189b8",
+      "method": "serp-discovery",
+      "productCount": 8,
       "stats": {
-        "count": 12,
-        "min": 69.99,
-        "max": 329.99,
-        "avg": 145.82,
-        "median": 129.99,
-        "p25": 84.99,
-        "p75": 164.99
+        "count": 8,
+        "min": 59.99,
+        "max": 149.99,
+        "avg": 91.24,
+        "median": 89.99,
+        "p25": 82.49,
+        "p75": 92.49
       },
       "cheapest": {
-        "name": "Wide leg studded jeans - Article without model",
-        "price": 69.99,
+        "name": "Striped wrap blouse with tie - Details of the article 0, Blue. Ref: 37062894-00.",
+        "price": 59.99,
         "currency": "USD",
-        "url": "https://shop.mango.com/us/en/p/women/jeans/wide-leg/wide-leg-studded-jeans/27014101/32/00"
+        "url": "https://shop.mango.com/us/en/p/women/shirts---blouses/blouses/striped-wrap-blouse-with-tie/37062894/52/00"
       },
       "products": [
         {
-          "name": "Wide leg studded jeans - Article without model",
-          "price": 69.99,
+          "name": "Striped wrap blouse with tie - Details of the article 0, Blue. Ref: 37062894-00.",
+          "price": 59.99,
           "currency": "USD",
-          "url": "https://shop.mango.com/us/en/p/women/jeans/wide-leg/wide-leg-studded-jeans/27014101/32/00"
+          "url": "https://shop.mango.com/us/en/p/women/shirts---blouses/blouses/striped-wrap-blouse-with-tie/37062894/52/00"
         },
         {
-          "name": "Pointed-heel sandals - Article without model",
-          "price": 69.99,
+          "name": "Printed dress with draped detail - Details of the article 0, Black. Ref: 37044069-00.",
+          "price": 59.99,
           "currency": "USD",
-          "url": "https://shop.mango.com/us/en/p/women/shoes/heeled-sandals/pointed-heel-sandals/37042904/99/00"
+          "url": "https://shop.mango.com/us/en/p/women/dresses-and-jumpsuits/casual/printed-dress-with-draped-detail/37044069/99/00"
         },
         {
-          "name": "Linen bomber jacket - Article without model",
-          "price": 69.99,
-          "currency": "USD",
-          "url": "https://shop.mango.com/us/en/p/women/jackets/bombers/linen-bomber-jacket/27045963/32/00"
-        },
-        {
-          "name": "Asymmetric midi skirt - Article without model",
+          "name": "Asymmetric midi skirt - Details of the article 0, Black. Ref: 37063320-00.",
           "price": 89.99,
           "currency": "USD",
           "url": "https://shop.mango.com/us/en/p/women/skirts/midi/asymmetric-midi-skirt/37063320/99/00"
         },
         {
-          "name": "Polka-dot skirt with asymmetrical hem - Article without model",
+          "name": "Draped Waist Halter Dress - Details of the article 0, Ecru. Ref: 37013866-00.",
+          "price": 89.99,
+          "currency": "USD",
+          "url": "https://shop.mango.com/us/en/p/women/dresses-and-jumpsuits/casual/draped-waist-halter-dress/37013866/05/00"
+        },
+        {
+          "name": "Polka-dot skirt with asymmetrical hem - Details of the article 0, Navy. Ref: 37061482-00.",
           "price": 89.99,
           "currency": "USD",
           "url": "https://shop.mango.com/us/en/p/women/skirts/long/polka-dot-skirt-with-asymmetrical-hem/37061482/56/00"
         },
         {
-          "name": "Funnel neck parka with pockets - Article without model",
-          "price": 119.99,
+          "name": "Asymmetric midi skirt - Details of the article 0, Off White. Ref: 37063319-00.",
+          "price": 89.99,
           "currency": "USD",
-          "url": "https://shop.mango.com/us/en/p/women/jackets/funnel-neck-parka-with-pockets/27064444/10/00"
+          "url": "https://shop.mango.com/us/en/p/women/skirts/midi/asymmetric-midi-skirt/37063319/02/00"
         },
         {
-          "name": "Wide leg studded jeans - Article without model",
-          "price": 139.99,
+          "name": "Cross-back linen blend romper - Details of the article 0, Red. Ref: 37032527-00.",
+          "price": 99.99,
           "currency": "USD",
-          "url": "https://shop.mango.com/us/en/p/women/jeans/wide-leg/wide-leg-studded-jeans/27014101/32/00"
+          "url": "https://shop.mango.com/us/en/p/women/dresses-and-jumpsuits/casual/cross-back-linen-blend-romper/37032527/70/00"
         },
         {
-          "name": "Buttoned wool coat - Article without model",
-          "price": 139.99,
-          "currency": "USD",
-          "url": "https://shop.mango.com/us/en/p/women/coats/coats/buttoned-wool-coat/27063309/10/00"
-        },
-        {
-          "name": "Linen bomber jacket - Article without model",
+          "name": "Crocheted dress with scalloped hem - Details of the article 0, White. Ref: 37072008-00.",
           "price": 149.99,
           "currency": "USD",
-          "url": "https://shop.mango.com/us/en/p/women/jackets/bombers/linen-bomber-jacket/27045963/32/00"
-        },
-        {
-          "name": "Leather block-heel sandals - Article without model",
-          "price": 209.99,
-          "currency": "USD",
-          "url": "https://shop.mango.com/us/en/p/women/shoes/heeled-sandals/leather-block-heel-sandals/37041443/32/00"
-        },
-        {
-          "name": "Funnel neck parka with pockets - Article without model",
-          "price": 269.99,
-          "currency": "USD",
-          "url": "https://shop.mango.com/us/en/p/women/jackets/funnel-neck-parka-with-pockets/27064444/10/00"
-        },
-        {
-          "name": "Buttoned wool coat - Article without model",
-          "price": 329.99,
-          "currency": "USD",
-          "url": "https://shop.mango.com/us/en/p/women/coats/coats/buttoned-wool-coat/27063309/10/00"
+          "url": "https://shop.mango.com/us/en/p/women/dresses-and-jumpsuits/casual/crocheted-dress-with-scalloped-hem/37072008/01/00"
         }
       ]
     },
@@ -491,61 +467,61 @@
       "productCount": 48,
       "stats": {
         "count": 48,
-        "min": 21,
-        "max": 319,
-        "avg": 78.83,
-        "median": 59.99,
-        "p25": 48,
-        "p75": 94.25
+        "min": 19.99,
+        "max": 155,
+        "avg": 64.03,
+        "median": 55,
+        "p25": 47.99,
+        "p75": 69.99
       },
       "cheapest": {
-        "name": "Cotton On All Day halter neck crop top in blue serene stripes $21.00",
-        "price": 21,
+        "name": "ASOS DESIGN seamless v front & back tank top in black $19.99",
+        "price": 19.99,
         "currency": "USD",
-        "url": "https://www.asos.com/us/cotton-on/cotton-on-all-day-halter-neck-crop-top-in-blue-serene-stripes/prd/210831432#colourWayId-210831437"
+        "url": "https://www.asos.com/us/asos-design/asos-design-seamless-v-front-back-tank-top-in-black/prd/211010853#colourWayId-211010854"
       },
       "products": [
         {
-          "name": "Cotton On All Day halter neck crop top in blue serene stripes $21.00",
-          "price": 21,
+          "name": "ASOS DESIGN seamless v front & back tank top in black $19.99",
+          "price": 19.99,
           "currency": "USD",
-          "url": "https://www.asos.com/us/cotton-on/cotton-on-all-day-halter-neck-crop-top-in-blue-serene-stripes/prd/210831432#colourWayId-210831437"
+          "url": "https://www.asos.com/us/asos-design/asos-design-seamless-v-front-back-tank-top-in-black/prd/211010853#colourWayId-211010854"
         },
         {
-          "name": "Topshop jersey capri leggings in black $28.00",
+          "name": "ASOS DESIGN slinky slash neck top with short batwing sleeves in black $27.99 Selling fast",
+          "price": 27.99,
+          "currency": "USD",
+          "url": "https://www.asos.com/us/asos-design/asos-design-slinky-slash-neck-top-with-short-batwing-sleeves-in-black/prd/211143934#colourWayId-211143942"
+        },
+        {
+          "name": "Topshop jersey capri leggings in black $28.00 Selling fast",
           "price": 28,
           "currency": "USD",
           "url": "https://www.asos.com/us/topshop/topshop-jersey-capri-leggings-in-black/prd/211316183#colourWayId-211316187"
         },
         {
-          "name": "Motel ruched bandeau top in black $33.00",
-          "price": 33,
-          "currency": "USD",
-          "url": "https://www.asos.com/us/motel/motel-ruched-bandeau-top-in-black/prd/211131704#colourWayId-211131706"
-        },
-        {
-          "name": "ASOS DESIGN fringe detailing handkerchief hem halter neck top in cream - view 1",
-          "price": 37.99,
-          "currency": "USD",
-          "url": "https://www.asos.com/us/asos-design/asos-design-fringe-detailing-handkerchief-hem-halter-neck-top-in-cream/prd/211279662#colourWayId-211279664"
-        },
-        {
-          "name": "ASOS DESIGN oversized t-shirt with La Dolce Lemon graphic in white $37.99",
-          "price": 37.99,
-          "currency": "USD",
-          "url": "https://www.asos.com/us/asos-design/asos-design-oversized-t-shirt-with-la-dolce-lemon-graphic-in-white/prd/211419004#colourWayId-211419009"
-        },
-        {
-          "name": "ASOS DESIGN shirring top in red gingham - part of a set $39.99",
+          "name": "ASOS DESIGN asymmetric fallen shoulder top with fringe trim in chocolate $39.99",
           "price": 39.99,
           "currency": "USD",
-          "url": "https://www.asos.com/us/asos-design/asos-design-shirring-top-in-red-gingham-part-of-a-set/prd/211401254#colourWayId-211401255"
+          "url": "https://www.asos.com/us/asos-design/asos-design-asymmetric-fallen-shoulder-top-with-fringe-trim-in-chocolate/prd/211287496#colourWayId-211287500"
         },
         {
-          "name": "Reclaimed Vintage bengaline capri pants in brown $42.99 MORE COLORS",
-          "price": 42.99,
+          "name": "ASOS DESIGN knotted plunge neck draped top with skinny straps in blue $39.99",
+          "price": 39.99,
           "currency": "USD",
-          "url": "https://www.asos.com/us/reclaimed-vintage/reclaimed-vintage-bengaline-capri-pants-in-brown/prd/211379509#colourWayId-211379511"
+          "url": "https://www.asos.com/us/asos-design/asos-design-knotted-plunge-neck-draped-top-with-skinny-straps-in-blue/prd/211311277#colourWayId-211311281"
+        },
+        {
+          "name": "ASOS DESIGN cape top in red $39.99 Selling fast",
+          "price": 39.99,
+          "currency": "USD",
+          "url": "https://www.asos.com/us/asos-design/asos-design-cape-top-in-red/prd/211241335#colourWayId-211241347"
+        },
+        {
+          "name": "ASOS DESIGN linen blend fringe cami top set in chocolate $44.99 Selling fast",
+          "price": 44.99,
+          "currency": "USD",
+          "url": "https://www.asos.com/us/asos-design/asos-design-linen-blend-fringe-cami-top-set-in-chocolate/prd/211246882#colourWayId-211246887"
         },
         {
           "name": "ASOS DESIGN slinky hardware gem detail plunge top in white $44.99 Selling fast",
@@ -554,82 +530,94 @@
           "url": "https://www.asos.com/us/asos-design/asos-design-slinky-hardware-gem-detail-plunge-top-in-white/prd/211279649#colourWayId-211279651"
         },
         {
+          "name": "The Frolic exclusive slinky ruffle shoulder detail sleeveless top in chocolate $46.00",
+          "price": 46,
+          "currency": "USD",
+          "url": "https://www.asos.com/us/the-frolic/the-frolic-exclusive-slinky-ruffle-shoulder-detail-sleeveless-top-in-chocolate/prd/210752016#colourWayId-210752018"
+        },
+        {
+          "name": "ASOS DESIGN crochet knit midi skirt with fringe in ecru - part of a set - view 1",
+          "price": 47.99,
+          "currency": "USD",
+          "url": "https://www.asos.com/us/asos-design/asos-design-crochet-knit-top-with-fringe-set-in-ecru/grp/211125676#colourWayId-211051274&productId-211051269"
+        },
+        {
           "name": "ASOS DESIGN fringed maxi skirt in brown - part of a set - view 1",
           "price": 47.99,
           "currency": "USD",
           "url": "https://www.asos.com/us/asos-design/asos-design-fringed-set-in-brown/grp/211383509#colourWayId-211345791&productId-211345790"
         },
         {
-          "name": "ASOS DESIGN fringe knit halterneck tank top in chocolate - view 1",
+          "name": "ASOS DESIGN fringed scarf top in black floral $47.99",
           "price": 47.99,
           "currency": "USD",
-          "url": "https://www.asos.com/us/asos-design/asos-design-fringe-knit-halterneck-tank-top-in-chocolate/prd/210505031#colourWayId-210505036"
+          "url": "https://www.asos.com/us/asos-design/asos-design-fringed-scarf-top-in-black-floral/prd/211319296#colourWayId-211319297"
         },
         {
-          "name": "Topshop 90s cutaway top in buttermilk $48.00 MORE COLORS Selling fast",
-          "price": 48,
+          "name": "ASOS DESIGN shirred volume maxi skirt in brown - part of a set $47.99",
+          "price": 47.99,
           "currency": "USD",
-          "url": "https://www.asos.com/us/topshop/topshop-90s-cutaway-top-in-buttermilk/prd/211032248#colourWayId-211032251"
+          "url": "https://www.asos.com/us/asos-design/asos-design-shirred-volume-maxi-skirt-in-brown-part-of-a-set/prd/210498488#colourWayId-210498491"
         },
         {
-          "name": "Topshop 90s cutaway top in black $48.00 MORE COLORS",
-          "price": 48,
+          "name": "ASOS DESIGN bubble hem side tie shorts in polka dot - part of a set $47.99",
+          "price": 47.99,
           "currency": "USD",
-          "url": "https://www.asos.com/us/topshop/topshop-90s-cutaway-top-in-black/prd/211044965#colourWayId-211044968"
+          "url": "https://www.asos.com/us/asos-design/asos-design-bubble-hem-side-tie-shorts-in-polka-dot-part-of-a-set/prd/211246528#colourWayId-211246535"
         },
         {
-          "name": "Ris-k landlocked top in papyrus $48.00",
-          "price": 48,
-          "currency": "USD",
-          "url": "https://www.asos.com/us/ris-k/ris-k-landlocked-top-in-papyrus/prd/211428990#colourWayId-211428992"
-        },
-        {
-          "name": "ASOS DESIGN Tailored wrap neck vest in gold - view 1",
+          "name": "ASOS DESIGN wide leg pants in blurred polka-dot print - part of a set - view 1",
           "price": 49.99,
           "currency": "USD",
-          "url": "https://www.asos.com/us/asos-design/asos-design-tailored-wrap-neck-vest-in-gold/prd/210544769#colourWayId-210544776"
+          "url": "https://www.asos.com/us/asos-design/asos-design-wide-leg-pants-in-blurred-polka-dot-print-part-of-a-set/prd/211397578#colourWayId-211397579"
         },
         {
-          "name": "Miss Selfridge embroidered shorts in ecru - part of a set $49.99 MIX & MATCH Selling fast",
+          "name": "ASOS DESIGN knit fringe trim sarong midi skirt in brown $49.99 MORE COLORS Selling fast",
           "price": 49.99,
           "currency": "USD",
-          "url": "https://www.asos.com/us/miss-selfridge/miss-selfridge-embroidered-set/grp/211517210#colourWayId-210466564&productId-210466556"
+          "url": "https://www.asos.com/us/asos-design/asos-design-knit-fringe-trim-sarong-midi-skirt-in-brown/prd/211134607#colourWayId-211134609"
         },
         {
-          "name": "Miss Selfridge crochet floral romper in cream $49.99",
+          "name": "ASOS DESIGN knit fringe sarong mini skirt in yellow $49.99 Selling fast",
           "price": 49.99,
           "currency": "USD",
-          "url": "https://www.asos.com/us/miss-selfridge/miss-selfridge-crochet-floral-romper-in-cream/prd/211234395#colourWayId-211234399"
+          "url": "https://www.asos.com/us/asos-design/asos-design-knit-fringe-sarong-mini-skirt-in-yellow/prd/211157574#colourWayId-211157578"
         },
         {
-          "name": "ASOS DESIGN satin flower detail open back cami in gold $49.99 Selling fast",
+          "name": "ASOS DESIGN satin wide leg pull on pants in khaki $49.99 Selling fast",
           "price": 49.99,
           "currency": "USD",
-          "url": "https://www.asos.com/us/asos-design/asos-design-satin-flower-detail-open-back-cami-in-gold/prd/210716134#colourWayId-210716135"
+          "url": "https://www.asos.com/us/asos-design/asos-design-satin-wide-leg-pull-on-pants-in-khaki/prd/211372607#colourWayId-211372630"
         },
         {
-          "name": "Topshop scarf detail top in black striped print $50.00 Selling fast",
-          "price": 50,
+          "name": "ASOS DESIGN textured wide leg crochet pants in khaki - part of a set $49.99 MIX & MATCH",
+          "price": 49.99,
           "currency": "USD",
-          "url": "https://www.asos.com/us/topshop/topshop-scarf-detail-top-in-black-striped-print/prd/211135257#colourWayId-211135263"
+          "url": "https://www.asos.com/us/asos-design/asos-design-crochet-set-in-khaki/grp/211412586#colourWayId-211386607&productId-211386589"
         },
         {
-          "name": "adidas Originals striped boxer shorts in blue $50.00 Selling fast",
-          "price": 50,
+          "name": "ASOS DESIGN pelmet mini skort in zebra print $49.99 Selling fast",
+          "price": 49.99,
           "currency": "USD",
-          "url": "https://www.asos.com/us/adidas-originals/adidas-originals-striped-boxer-shorts-in-blue/prd/210393254#colourWayId-210393255"
+          "url": "https://www.asos.com/us/asos-design/asos-design-pelmet-mini-skort-in-zebra-print/prd/211241915#colourWayId-211241917"
         },
         {
-          "name": "ASOS DESIGN lace trim volume satin shorts in red $54.99 MORE COLORS Selling fast",
+          "name": "Kaiia faux suede micro shorts in chocolate $52.00",
+          "price": 52,
+          "currency": "USD",
+          "url": "https://www.asos.com/us/kaiia/kaiia-faux-suede-micro-shorts-in-chocolate/prd/210899042#colourWayId-210899049"
+        },
+        {
+          "name": "Gina Tricot mix & match plunge peplum top in khaki glitter $52.00 MIX & MATCH",
+          "price": 52,
+          "currency": "USD",
+          "url": "https://www.asos.com/us/gina-tricot/gina-tricot-mix-match-plunge-peplum-set-in-khaki-glitter/grp/211527477#colourWayId-211086286&productId-211086282"
+        },
+        {
+          "name": "ASOS DESIGN printed mesh leaf maxi skirt set in zebra $54.99 MIX & MATCH",
           "price": 54.99,
           "currency": "USD",
-          "url": "https://www.asos.com/us/asos-design/asos-design-lace-trim-volume-satin-shorts-in-red/prd/210594674#colourWayId-210594677"
-        },
-        {
-          "name": "ASOS DESIGN slit maxi skirt in blue polka dots $54.99 MIX & MATCH Selling fast",
-          "price": 54.99,
-          "currency": "USD",
-          "url": "https://www.asos.com/us/asos-design/asos-design-dot-maxi-slit-skirt-top-in-blue/grp/211494630#colourWayId-211364870&productId-211364859"
+          "url": "https://www.asos.com/us/asos-design/asos-design-printed-mesh-leaf-maxi-skirt-set-in-zebra/grp/211384459#colourWayId-211373724&productId-211373699"
         },
         {
           "name": "ASOS DESIGN bead halterneck satin bandeau top in chocolate $54.99 Selling fast",
@@ -638,16 +626,40 @@
           "url": "https://www.asos.com/us/asos-design/asos-design-bead-halterneck-satin-bandeau-top-in-chocolate/prd/210628381#colourWayId-210628398"
         },
         {
-          "name": "Mango Teen wide leg jeans in light blue $59.99",
-          "price": 59.99,
+          "name": "Topshop halter tie waist top in abstract print $55.00",
+          "price": 55,
           "currency": "USD",
-          "url": "https://www.asos.com/us/mango/mango-teen-wide-leg-jeans-in-light-blue/prd/211361210#colourWayId-211361214"
+          "url": "https://www.asos.com/us/topshop/topshop-halter-tie-waist-top-in-abstract-print/prd/211176476#colourWayId-211176477"
         },
         {
-          "name": "ASOS DESIGN crochet knit maxi dress with fringe in pink $59.99",
+          "name": "Topshop cap sleeve asymmetric tie detail top in black $55.00 Selling fast",
+          "price": 55,
+          "currency": "USD",
+          "url": "https://www.asos.com/us/topshop/topshop-cap-sleeve-asymmetric-tie-detail-top-in-black/prd/211176243#colourWayId-211176253"
+        },
+        {
+          "name": "ASOS DESIGN tiered printed mesh midaxi dress $59.99",
           "price": 59.99,
           "currency": "USD",
-          "url": "https://www.asos.com/us/asos-design/asos-design-crochet-knit-maxi-dress-with-fringe-in-pink/prd/211227182#colourWayId-211227184"
+          "url": "https://www.asos.com/us/asos-design/asos-design-tiered-printed-mesh-midaxi-dress/prd/211183266#colourWayId-211183267"
+        },
+        {
+          "name": "ASOS DESIGN one shoulder midaxi dress with cinched dropped hem in striped print $59.99",
+          "price": 59.99,
+          "currency": "USD",
+          "url": "https://www.asos.com/us/asos-design/asos-design-one-shoulder-midaxi-dress-with-cinched-dropped-hem-in-striped-print/prd/211396601#colourWayId-211396605"
+        },
+        {
+          "name": "ASOS DESIGN satin tie cuff tie neck button down blouse in buttermilk $59.99",
+          "price": 59.99,
+          "currency": "USD",
+          "url": "https://www.asos.com/us/asos-design/asos-design-satin-tie-cuff-tie-neck-button-down-blouse-in-buttermilk/prd/210856820#colourWayId-210856821"
+        },
+        {
+          "name": "Mango Noah one shoulder asymmetric sleeveless denim top in indigo $59.99",
+          "price": 59.99,
+          "currency": "USD",
+          "url": "https://www.asos.com/us/mango/mango-noah-one-shoulder-asymmetric-sleeveless-denim-top-in-indigo/prd/211349221#colourWayId-211349222"
         },
         {
           "name": "ASOS DESIGN mix polka dot scarf detail midi dress blue and brown $59.99 Selling fast",
@@ -656,142 +668,106 @@
           "url": "https://www.asos.com/us/asos-design/asos-design-mix-polka-dot-scarf-detail-midi-dress-blue-and-brown/prd/211076469#colourWayId-211076476"
         },
         {
-          "name": "Topshop capri pants in black $60.00 Selling fast",
+          "name": "Topshop satin cowl halter top in abstract print - part of a set $60.00 Selling fast",
           "price": 60,
           "currency": "USD",
-          "url": "https://www.asos.com/us/topshop/topshop-capri-pants-in-black/prd/211274672#colourWayId-211274683"
+          "url": "https://www.asos.com/us/topshop/topshop-satin-cowl-halter-top-in-abstract-print-part-of-a-set/prd/210984131#colourWayId-210984140"
         },
         {
-          "name": "4505 active scoop neck romper with shelf bra in black $60.00",
+          "name": "Topshop structured asymmetric bandeau in green $60.00",
           "price": 60,
           "currency": "USD",
-          "url": "https://www.asos.com/us/4505/4505-active-scoop-neck-romper-with-shelf-bra-in-black/prd/211242558#colourWayId-211242571"
+          "url": "https://www.asos.com/us/topshop/topshop-structured-asymmetric-bandeau-in-green/prd/210756530#colourWayId-210756531"
         },
         {
-          "name": "Topshop square neck cami with drape back detail in natural $60.00 MORE COLORS Selling fast",
-          "price": 60,
+          "name": "Free People Celeste quarter zip sweater in mochachino $63.00",
+          "price": 63,
           "currency": "USD",
-          "url": "https://www.asos.com/us/topshop/topshop-square-neck-cami-with-drape-back-detail-in-natural/prd/210870566#colourWayId-210870571"
+          "url": "https://www.asos.com/us/free-people/free-people-celeste-quarter-zip-sweater-in-mochachino/prd/211161399#colourWayId-211161401"
         },
         {
-          "name": "ASOS DESIGN fringe drape halterneck top in black $64.99 MORE COLORS",
-          "price": 64.99,
-          "currency": "USD",
-          "url": "https://www.asos.com/us/asos-design/asos-design-fringe-drape-halterneck-top-in-black/prd/210497791#colourWayId-210497806"
-        },
-        {
-          "name": "Reclaimed Vintage asymmetric hem midi skirt with tassels in rust red $64.99",
-          "price": 64.99,
-          "currency": "USD",
-          "url": "https://www.asos.com/us/reclaimed-vintage/reclaimed-vintage-asymmetric-hem-midi-skirt-with-tassels-in-rust-red/prd/210673731#colourWayId-210673732"
-        },
-        {
-          "name": "Lioness Rhode cotton blend cargo mini skirt in vintage stone blue wash $69.00",
-          "price": 69,
-          "currency": "USD",
-          "url": "https://www.asos.com/us/lioness/lioness-rhode-cotton-blend-cargo-mini-skirt-in-vintage-stone-blue-wash/prd/210820706#colourWayId-210820709"
-        },
-        {
-          "name": "ASOS DESIGN funnel neck textured drawstring waist shacket in green $69.99",
+          "name": "ASOS DESIGN compact knit lace trim pants in oatmeal - part of a set $69.99 MIX & MATCH",
           "price": 69.99,
           "currency": "USD",
-          "url": "https://www.asos.com/us/asos-design/asos-design-funnel-neck-textured-drawstring-waist-shacket-in-green/prd/210715952#colourWayId-210715954"
+          "url": "https://www.asos.com/us/asos-design/asos-design-compact-knit-lace-detail-tank-top-lace-trim-pants-set-in-oatmeal/grp/210945559#colourWayId-210534289&productId-210534284"
         },
         {
-          "name": "Bo+Tee foldover mini skort in black $70.00",
-          "price": 70,
+          "name": "ASOS DESIGN tie waist pants in cream - part of a set $69.99 MIX & MATCH",
+          "price": 69.99,
           "currency": "USD",
-          "url": "https://www.asos.com/us/botee/botee-foldover-mini-skort-in-black/prd/211160493#colourWayId-211160496"
+          "url": "https://www.asos.com/us/asos-design/asos-design-linen-tie-side-blazer-in-cream-set/grp/211125684#colourWayId-211078959&productId-211078954"
         },
         {
-          "name": "Motel Fang maxi skirt in pistachio green - part of a set $73.00",
+          "name": "ASOS DESIGN crochet knit maxi fringe skirt $69.99",
+          "price": 69.99,
+          "currency": "USD",
+          "url": "https://www.asos.com/us/asos-design/asos-design-crochet-knit-maxi-fringe-skirt/prd/211227210#colourWayId-211227213"
+        },
+        {
+          "name": "Motel Fang maxi skirt in pistachio green - part of a set $73.00 Selling fast",
           "price": 73,
           "currency": "USD",
           "url": "https://www.asos.com/us/motel/motel-fang-maxi-skirt-in-pistachio-green-part-of-a-set/prd/211131571#colourWayId-211131573"
         },
         {
-          "name": "Topshop halter backless maxi dress in abstract stripe $75.00 MORE COLORS Selling fast",
-          "price": 75,
+          "name": "Mango rosette halterneck top in black $79.99",
+          "price": 79.99,
           "currency": "USD",
-          "url": "https://www.asos.com/us/topshop/topshop-halter-backless-maxi-dress-in-abstract-stripe/prd/211235794#colourWayId-211235798"
+          "url": "https://www.asos.com/us/mango/mango-rosette-halterneck-top-in-black/prd/211430324#colourWayId-211430325"
         },
         {
-          "name": "Princess Polly Yumiko sleeveless tie back detail romper in burgundy pinstripes $94.00",
-          "price": 94,
+          "name": "Miss Selfridge sheer mini dress with lace godets in pastel $84.99 Selling fast",
+          "price": 84.99,
           "currency": "USD",
-          "url": "https://www.asos.com/us/princess-polly/princess-polly-yumiko-sleeveless-tie-back-detail-romper-in-burgundy-pinstripes/prd/210735983#colourWayId-210735984"
+          "url": "https://www.asos.com/us/miss-selfridge/miss-selfridge-sheer-mini-dress-with-lace-godets-in-pastel/prd/210494628#colourWayId-210494631"
         },
         {
-          "name": "ASOS DESIGN column slouchy hip maxi dress in navy $94.99 MORE COLORS",
+          "name": "ASOS DESIGN halter neck maxi dress with gathered sides in chocolate $89.99",
+          "price": 89.99,
+          "currency": "USD",
+          "url": "https://www.asos.com/us/asos-design/asos-design-halter-neck-maxi-dress-with-gathered-sides-in-chocolate/prd/211305036#colourWayId-211305038"
+        },
+        {
+          "name": "ASOS DESIGN satin racer neck maxi dress in ivory $94.99",
           "price": 94.99,
           "currency": "USD",
-          "url": "https://www.asos.com/us/asos-design/asos-design-column-slouchy-hip-maxi-dress-in-navy/prd/211128419#colourWayId-211128425"
+          "url": "https://www.asos.com/us/asos-design/asos-design-satin-racer-neck-maxi-dress-in-ivory/prd/211187982#colourWayId-211188010"
         },
         {
-          "name": "Topshop mid rise straight leg jeans with lace up detail in oat $95.00",
+          "name": "Topshop premium halter neck top with contrast lace detailing in green $95.00 MORE COLORS",
           "price": 95,
           "currency": "USD",
-          "url": "https://www.asos.com/us/topshop/topshop-mid-rise-straight-leg-jeans-with-lace-up-detail-in-oat/prd/210943646#colourWayId-210943648"
+          "url": "https://www.asos.com/us/topshop/topshop-premium-halter-neck-top-with-contrast-lace-detailing-in-green/prd/210639335#colourWayId-210639341"
         },
         {
-          "name": "ASOS DESIGN Tailored high neck jacket with drummer boy buttons in khaki $99.99",
-          "price": 99.99,
+          "name": "Kaiia exclusive satin halterneck scarf detail sheer hem maxi dress in black $96.00",
+          "price": 96,
           "currency": "USD",
-          "url": "https://www.asos.com/us/asos-design/asos-design-tailored-high-neck-jacket-with-drummer-boy-buttons-in-khaki/prd/210920657#colourWayId-210920675"
+          "url": "https://www.asos.com/us/kaiia/kaiia-exclusive-satin-halterneck-scarf-detail-sheer-hem-maxi-dress-in-black/prd/210816430#colourWayId-210816439"
         },
         {
-          "name": "ASOS DESIGN bandeau shift mini dress with fringe hem and scarf detail in khaki $109.00",
-          "price": 109,
+          "name": "Free People On it half zip sweater in dark green $120.00",
+          "price": 120,
           "currency": "USD",
-          "url": "https://www.asos.com/us/asos-design/asos-design-bandeau-shift-mini-dress-with-fringe-hem-and-scarf-detail-in-khaki/prd/210638101#colourWayId-210638109"
+          "url": "https://www.asos.com/us/free-people/free-people-on-it-half-zip-sweater-in-dark-green/prd/211161163#colourWayId-211161167"
         },
         {
-          "name": "ASOS DESIGN modesty batwing sleeve maxi dress in bottle green $109.00 MORE COLORS",
-          "price": 109,
+          "name": "Free People v neck corset style mini dress in yellow $148.00",
+          "price": 148,
           "currency": "USD",
-          "url": "https://www.asos.com/us/asos-design/asos-design-modesty-batwing-sleeve-maxi-dress-in-bottle-green/prd/210984132#colourWayId-210984136"
+          "url": "https://www.asos.com/us/free-people/free-people-v-neck-corset-style-mini-dress-in-yellow/prd/210115231#colourWayId-210115232"
         },
         {
-          "name": "ASOS DESIGN bardot structured plunge mini dress with draped waist in bright blue $109.00",
-          "price": 109,
+          "name": "Nobody's Child Blaine short sleeve draped midi dress in blue plaid $148.00",
+          "price": 148,
           "currency": "USD",
-          "url": "https://www.asos.com/us/asos-design/asos-design-bardot-structured-plunge-mini-dress-with-draped-waist-in-bright-blue/prd/211176922#colourWayId-211176923"
+          "url": "https://www.asos.com/us/nobodys-child/nobodys-child-blaine-short-sleeve-draped-midi-dress-in-blue-plaid/prd/210851410#colourWayId-210851413"
         },
         {
-          "name": "Oh Polly satin halter neck ruched bubble hem mini dress in ivory $130.00",
-          "price": 130,
+          "name": "Nobody's Child Petite Aida v-neck lace trim tie detail maxi dress in pale blue $155.00",
+          "price": 155,
           "currency": "USD",
-          "url": "https://www.asos.com/us/oh-polly/oh-polly-satin-halter-neck-ruched-bubble-hem-mini-dress-in-ivory/prd/211354671#colourWayId-211354674"
-        },
-        {
-          "name": "ASOS DESIGN faux-pearl embellished mesh maxi dress with encrusted shells in pink $149.00",
-          "price": 149,
-          "currency": "USD",
-          "url": "https://www.asos.com/us/asos-design/asos-design-faux-pearl-embellished-mesh-maxi-dress-with-encrusted-shells-in-pink/prd/210501740#colourWayId-210501741"
-        },
-        {
-          "name": "ASOS DESIGN maxi dress with all over scattered embellishments in pink $169.00 Selling fast",
-          "price": 169,
-          "currency": "USD",
-          "url": "https://www.asos.com/us/asos-design/asos-design-maxi-dress-with-all-over-scattered-embellishments-in-pink/prd/210457929#colourWayId-210457933"
-        },
-        {
-          "name": "ASOS DESIGN paneled v-neck cami fringe mini dress in purple $199.00 Selling fast",
-          "price": 199,
-          "currency": "USD",
-          "url": "https://www.asos.com/us/asos-design/asos-design-paneled-v-neck-cami-fringe-mini-dress-in-purple/prd/210603086#colourWayId-210603091"
-        },
-        {
-          "name": "Topshop real suede patch micro short in orange $269.00",
-          "price": 269,
-          "currency": "USD",
-          "url": "https://www.asos.com/us/topshop/topshop-real-suede-patch-micro-short-in-orange/prd/210547151#colourWayId-210547152"
-        },
-        {
-          "name": "ASOS DESIGN halter neck mini dress with faux-pearl beaded embellishments in cream $319.00",
-          "price": 319,
-          "currency": "USD",
-          "url": "https://www.asos.com/us/asos-design/asos-design-halter-neck-mini-dress-with-faux-pearl-beaded-embellishments-in-cream/prd/210646535#colourWayId-210646544"
+          "url": "https://www.asos.com/us/nobodys-child-petite/nobodys-child-petite-aida-v-neck-lace-trim-tie-detail-maxi-dress-in-pale-blue/prd/210873828#colourWayId-210873830"
         }
       ]
     },
@@ -801,20 +777,20 @@
       "color": "#8B93A7",
       "url": "https://www.cos.com/en_usd/women/bestsellers.html",
       "domain": "cos.com",
-      "status": "stale",
-      "stale": true,
-      "error": "Scraping https://www.cos.com/en_usd/women/bestsellers.html...\nError: Timed out waiting for network idle\n (served last good data)",
+      "status": "ok",
+      "stale": false,
+      "error": null,
       "collectedFrom": "https://www.cos.com/en-us/women/most-popular",
       "method": "serp-discovery",
       "productCount": 31,
       "stats": {
         "count": 31,
         "min": 25,
-        "max": 189,
-        "avg": 117,
+        "max": 329,
+        "avg": 124.71,
         "median": 129,
         "p25": 110,
-        "p75": 129
+        "p75": 134
       },
       "cheapest": {
         "name": "Ribbed cotton tank top",
@@ -854,10 +830,10 @@
           "url": "https://www.cos.com/en-us/women/womenswear/tops/product/ribbed-henley-t-shirt-navy-1350274002"
         },
         {
-          "name": "Knotted chain bracelet",
-          "price": 69,
+          "name": "Oversized short-sleeved linen shirt",
+          "price": 89,
           "currency": "USD",
-          "url": "https://www.cos.com/en-us/women/accessories/jewellery/bracelets/product/knotted-chain-bracelet-gold-1350923001"
+          "url": "https://www.cos.com/en-us/women/womenswear/shirts/linenshirts/product/oversized-short-sleeved-linen-shirt-yellow-1314348006"
         },
         {
           "name": "Striped cotton shirt",
@@ -890,28 +866,10 @@
           "url": "https://www.cos.com/en-us/women/womenswear/trousers/barrel-leg/product/cotton-barrel-leg-utility-trousers-black-1337107001"
         },
         {
-          "name": "Tiered gathered midi skirt",
-          "price": 110,
-          "currency": "USD",
-          "url": "https://www.cos.com/en-us/women/womenswear/skirts/midlength/product/tiered-gathered-midi-skirt-white-1335864003"
-        },
-        {
           "name": "Sculptural cotton-jersey midi dress",
           "price": 110,
           "currency": "USD",
           "url": "https://www.cos.com/en-us/women/womenswear/dresses/mididresses/product/sculptural-cotton-jersey-midi-dress-black-1346280001"
-        },
-        {
-          "name": "Twist-detail jersey midi skirt",
-          "price": 129,
-          "currency": "USD",
-          "url": "https://www.cos.com/en-us/women/womenswear/skirts/midlength/product/twist-detail-jersey-midi-skirt-navy-1327027001"
-        },
-        {
-          "name": "Merino wool layered polo shirt",
-          "price": 129,
-          "currency": "USD",
-          "url": "https://www.cos.com/en-us/women/womenswear/tops/polo-shirts/product/merino-wool-layered-polo-shirt-navy-white-1352388001"
         },
         {
           "name": "Fringed checked linen-cotton shirt",
@@ -920,16 +878,16 @@
           "url": "https://www.cos.com/en-us/women/womenswear/shirts/linenshirts/product/fringed-checked-linen-cotton-shirt-beige-checked-1342258001"
         },
         {
-          "name": "TAILORED COTTON BARREL-LEG PANTS",
+          "name": "Merino wool layered polo shirt",
           "price": 129,
           "currency": "USD",
-          "url": "https://media.cos.com/assets/001/21/ac/21ac08eb3745c142cf84c579751b32ec9f9a781a_xxl-1.jpg?imwidth=2160"
+          "url": "https://www.cos.com/en-us/women/womenswear/tops/polo-shirts/product/merino-wool-layered-polo-shirt-navy-white-1352388001"
         },
         {
-          "name": "Paneled sleeveless midi dress",
+          "name": "Twist-detail jersey midi skirt",
           "price": 129,
           "currency": "USD",
-          "url": "https://www.cos.com/en-us/women/womenswear/dresses/mididresses/product/panelled-sleeveless-midi-dress-navy-1343607001"
+          "url": "https://www.cos.com/en-us/women/womenswear/skirts/midlength/product/twist-detail-jersey-midi-skirt-navy-1327027001"
         },
         {
           "name": "Cotton-linen balloon midi skirt",
@@ -938,16 +896,28 @@
           "url": "https://www.cos.com/en-us/women/womenswear/skirts/midlength/product/cotton-linen-balloon-midi-skirt-black-1345499001"
         },
         {
-          "name": "Sculpted-shoulder silk-cotton t-shirt",
+          "name": "Tailored cotton barrel-leg pants",
           "price": 129,
           "currency": "USD",
-          "url": "https://www.cos.com/en-us/women/womenswear/tshirts/regular/product/sculpted-silk-cotton-t-shirt-black-1345267001"
+          "url": "https://www.cos.com/en-us/women/womenswear/trousers/highwaisted/product/tailored-cotton-balloon-leg-trousers-navy-1329731001"
+        },
+        {
+          "name": "Paneled sleeveless midi dress",
+          "price": 129,
+          "currency": "USD",
+          "url": "https://www.cos.com/en-us/women/womenswear/dresses/mididresses/product/panelled-sleeveless-midi-dress-navy-1343607001"
         },
         {
           "name": "Merino wool zip-up polo shirt",
           "price": 129,
           "currency": "USD",
           "url": "https://www.cos.com/en-us/women/womenswear/tops/polo-shirts/product/merino-wool-zip-up-polo-shirt-charcoal-1352387001"
+        },
+        {
+          "name": "Knitted linen-merino short-sleeved shirt",
+          "price": 129,
+          "currency": "USD",
+          "url": "https://www.cos.com/en-us/women/womenswear/shirts/linenshirts/product/knitted-linen-merino-short-sleeved-shirt-navy-1327267005"
         },
         {
           "name": "LAGOON WIDE-LEG JEANS",
@@ -962,10 +932,10 @@
           "url": "https://www.cos.com/en-us/women/womenswear/trousers/barrel-leg/product/denim-barrel-leg-trousers-white-1337185001"
         },
         {
-          "name": "Knitted linen-merino short-sleeved shirt",
+          "name": "Sculpted-shoulder silk-cotton t-shirt",
           "price": 129,
           "currency": "USD",
-          "url": "https://www.cos.com/en-us/women/womenswear/shirts/linenshirts/product/knitted-linen-merino-short-sleeved-shirt-navy-1327267005"
+          "url": "https://www.cos.com/en-us/women/womenswear/tshirts/regular/product/sculpted-silk-cotton-t-shirt-black-1345267001"
         },
         {
           "name": "Cotton-twill wide-leg turn-up pants",
@@ -983,7 +953,7 @@
           "name": "Jacquard handkerchief midi skirt",
           "price": 159,
           "currency": "USD",
-          "url": "https://www.cos.com/en-us/women/womenswear/skirts/midlength/product/jacquard-handkerchief-midi-skirt-cream-1351062002"
+          "url": "https://www.cos.com/en-us/women/womenswear/skirts/midlength/product/jacquard-handkerchief-midi-skirt-brown-animal-effect-1351062001"
         },
         {
           "name": "Drawstring crossbody bag - leather",
@@ -1008,6 +978,12 @@
           "price": 189,
           "currency": "USD",
           "url": "https://www.cos.com/en-us/women/womenswear/dresses/longdresses/product/tie-detail-pleated-georgette-maxi-dress-black-1342103001"
+        },
+        {
+          "name": "Frieze bowling bag - leather",
+          "price": 329,
+          "currency": "USD",
+          "url": "https://www.cos.com/en-us/women/accessories/bags/leather/product/frieze-bowling-bag-leather-brown-1351266001"
         }
       ]
     },
@@ -1207,9 +1183,9 @@
       "domain": "adidas.com",
       "status": "error",
       "stale": false,
-      "error": "Scraping https://www.adidas.com/us/women-best_sellers...\nError: reject element found\n",
+      "error": "no products parsed",
       "collectedFrom": "https://www.adidas.com/us/women-best_sellers",
-      "method": null,
+      "method": "web-unlocker/markdown",
       "productCount": 0,
       "stats": null,
       "cheapest": null,
@@ -1219,7 +1195,7 @@
   "summary": {
     "retailerCount": 10,
     "okCount": 7,
-    "totalProducts": 159,
+    "totalProducts": 155,
     "ranking": [
       {
         "id": "hm",
@@ -1242,24 +1218,34 @@
         "count": 8
       },
       {
-        "id": "asos",
-        "name": "ASOS",
-        "color": "#6366F1",
-        "avg": 78.83,
-        "median": 59.99,
-        "min": 21,
-        "max": 319,
-        "count": 48
-      },
-      {
         "id": "zara",
         "name": "Zara",
         "color": "#C08457",
-        "avg": 89.16,
-        "median": 79.9,
-        "min": 35.9,
-        "max": 169,
+        "avg": 53.46,
+        "median": 49.9,
+        "min": 29.9,
+        "max": 79.9,
         "count": 9
+      },
+      {
+        "id": "asos",
+        "name": "ASOS",
+        "color": "#6366F1",
+        "avg": 64.03,
+        "median": 55,
+        "min": 19.99,
+        "max": 155,
+        "count": 48
+      },
+      {
+        "id": "mango",
+        "name": "Mango",
+        "color": "#F59E0B",
+        "avg": 91.24,
+        "median": 89.99,
+        "min": 59.99,
+        "max": 149.99,
+        "count": 8
       },
       {
         "id": "nike",
@@ -1275,21 +1261,11 @@
         "id": "cos",
         "name": "COS",
         "color": "#8B93A7",
-        "avg": 117,
+        "avg": 124.71,
         "median": 129,
         "min": 25,
-        "max": 189,
+        "max": 329,
         "count": 31
-      },
-      {
-        "id": "mango",
-        "name": "Mango",
-        "color": "#F59E0B",
-        "avg": 145.82,
-        "median": 129.99,
-        "min": 69.99,
-        "max": 329.99,
-        "count": 12
       }
     ],
     "cheapestRetailer": {
@@ -1303,17 +1279,17 @@
       "count": 30
     },
     "priciestRetailer": {
-      "id": "mango",
-      "name": "Mango",
-      "color": "#F59E0B",
-      "avg": 145.82,
-      "median": 129.99,
-      "min": 69.99,
-      "max": 329.99,
-      "count": 12
+      "id": "cos",
+      "name": "COS",
+      "color": "#8B93A7",
+      "avg": 124.71,
+      "median": 129,
+      "min": 25,
+      "max": 329,
+      "count": 31
     },
-    "overallAvg": 82.51,
-    "overallMedian": 64.99,
+    "overallAvg": 72.95,
+    "overallMedian": 55,
     "cheapestItem": {
       "retailer": "H&M",
       "retailerId": "hm",
