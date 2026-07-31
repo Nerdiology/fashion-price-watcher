@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T08:16:31.682Z",
+  "generatedAt": "2026-07-31T08:41:58.437Z",
   "currency": "USD",
   "poweredBy": "Bright Data — Web Unlocker, SERP API & Web Scraper API",
   "retailers": [
@@ -11,7 +11,7 @@
       "domain": "hm.com",
       "status": "stale",
       "stale": true,
-      "error": "Scraping https://www2.hm.com/en_us/women/seasonal-trending/best-sellers.html...\nError: captcha or protection page found\n (served last good data)",
+      "error": "Scraping https://www2.hm.com/en_us/women/seasonal-trending/best-sellers.html...\nError: Captcha resolve failed\n (served last good data)",
       "collectedFrom": "https://www2.hm.com/en_us/women/seasonal-trending/best-sellers.html",
       "method": "web-unlocker/markdown",
       "productCount": 29,
@@ -213,9 +213,9 @@
       "color": "#C08457",
       "url": "https://www.zara.com/us/en/woman-new-in-l1180.html",
       "domain": "zara.com",
-      "status": "ok",
-      "stale": false,
-      "error": null,
+      "status": "stale",
+      "stale": true,
+      "error": "Scraping https://www.zara.com/us/en/woman-new-in-l1180.html...\nError: Timed out waiting for window.DomContentLoaded event\n (served last good data)",
       "collectedFrom": "https://www.zara.com/us/en/woman-new-in-l1180.html",
       "method": "web-unlocker/json-ld",
       "productCount": 4,
@@ -267,20 +267,20 @@
       "color": "#14B8A6",
       "url": "https://www.uniqlo.com/us/en/women/featured/new-arrivals",
       "domain": "uniqlo.com",
-      "status": "stale",
-      "stale": true,
-      "error": "Scraping https://www.uniqlo.com/us/en/women/featured/new-arrivals...\n (served last good data)",
-      "collectedFrom": "https://www.uniqlo.com/us/en/spl/ranking/women?srsltid=AfmBOorls4w0X53XGKaaiLO_YJiQHiH-XCNZxDNrdWyUQcXS9BdLQG8A",
+      "status": "ok",
+      "stale": false,
+      "error": null,
+      "collectedFrom": "https://www.uniqlo.com/us/en/spl/ranking/women?srsltid=AfmBOorHWNHgZJqmrpx8jl6cNZcKaMHBTKj5qrDyMrBl2Q9OjXIrLAIx",
       "method": "serp-discovery",
       "productCount": 8,
       "stats": {
         "count": 8,
         "min": 14.9,
         "max": 49.9,
-        "avg": 28.03,
-        "median": 24.9,
-        "p25": 19.9,
-        "p75": 32.4
+        "avg": 31.78,
+        "median": 27.4,
+        "p25": 23.65,
+        "p75": 42.4
       },
       "cheapest": {
         "name": "Mini T-Shirt",
@@ -300,12 +300,6 @@
           "price": 19.9,
           "currency": "USD",
           "url": "https://www.uniqlo.com/us/en/products/E455365-000/00?colorDisplayCode=68"
-        },
-        {
-          "name": "Crew Neck T-Shirt",
-          "price": 19.9,
-          "currency": "USD",
-          "url": "https://www.uniqlo.com/us/en/products/E424873-000/00?colorDisplayCode=53"
         },
         {
           "name": "AIRism Cotton Oversized T-Shirt | Half-Sleeve",
@@ -336,6 +330,12 @@
           "price": 49.9,
           "currency": "USD",
           "url": "https://www.uniqlo.com/us/en/products/E471809-000/00?colorDisplayCode=08"
+        },
+        {
+          "name": "Cotton Culottes",
+          "price": 49.9,
+          "currency": "USD",
+          "url": "https://www.uniqlo.com/us/en/products/E483042-000/00?colorDisplayCode=31"
         }
       ]
     },
@@ -345,9 +345,9 @@
       "color": "#F59E0B",
       "url": "https://shop.mango.com/us/en/c/women/new-now_d5f2a6e6",
       "domain": "mango.com",
-      "status": "ok",
-      "stale": false,
-      "error": null,
+      "status": "stale",
+      "stale": true,
+      "error": "no products parsed (served last good data)",
       "collectedFrom": "https://shop.mango.com/us/en/c/women/new-now_d5f2a6e6",
       "method": "web-unlocker/markdown",
       "productCount": 10,
@@ -464,7 +464,7 @@
           "url": "https://www.asos.com/us/asos-design/asos-design-high-neck-racer-neck-tank-top-in-black/prd/210838924#colourWayId-210838926"
         },
         {
-          "name": "ASOS DESIGN seamless v front & back tank top in black $19.99 MORE COLORS Selling fast",
+          "name": "ASOS DESIGN seamless v front & back tank top in black $19.99 MORE COLORS",
           "price": 19.99,
           "currency": "USD",
           "url": "https://www.asos.com/us/asos-design/asos-design-seamless-v-front-back-tank-top-in-black/prd/211010853#colourWayId-211010854"
@@ -560,7 +560,7 @@
           "url": "https://www.asos.com/us/miss-selfridge/miss-selfridge-lace-trim-tank-top-with-bow-in-yellow-polka-dots/prd/211384168#colourWayId-211384169"
         },
         {
-          "name": "ASOS DESIGN crochet tassel top $44.99",
+          "name": "ASOS DESIGN crochet tassel top $44.99 Selling fast",
           "price": 44.99,
           "currency": "USD",
           "url": "https://www.asos.com/us/asos-design/asos-design-crochet-tassel-top/prd/211124324#colourWayId-211124332"
@@ -620,7 +620,7 @@
           "url": "https://www.asos.com/us/topshop/topshop-cap-sleeve-asymmetric-tie-detail-top-in-black/prd/211176243#colourWayId-211176253"
         },
         {
-          "name": "ASOS DESIGN embroidered panel mini dress in olive $59.99 Selling fast",
+          "name": "ASOS DESIGN embroidered panel mini dress in olive $59.99",
           "price": 59.99,
           "currency": "USD",
           "url": "https://www.asos.com/us/asos-design/asos-design-embroidered-panel-mini-dress-in-olive/prd/210378795#colourWayId-210378819"
@@ -638,7 +638,7 @@
           "url": "https://www.asos.com/us/miss-selfridge/miss-selfridge-embroidered-ruffle-romper-in-black/prd/210728725#colourWayId-210728734"
         },
         {
-          "name": "Topshop wrap waist tie detail top in neutral stripes $59.99",
+          "name": "Topshop wrap waist tie detail top in neutral stripes $59.99 MORE COLORS",
           "price": 59.99,
           "currency": "USD",
           "url": "https://www.asos.com/us/topshop/topshop-wrap-waist-tie-detail-top-in-neutral-stripes/prd/211016332#colourWayId-211016347"
@@ -674,7 +674,7 @@
           "url": "https://www.asos.com/us/asos-design/asos-design-frill-detailing-mesh-maxi-skirt-in-blue/prd/211414768#colourWayId-211414780"
         },
         {
-          "name": "Miss Selfridge tiered spun maxi skirt in choc and aqua polka dot print $69.99",
+          "name": "Miss Selfridge tiered spun maxi skirt in choc and aqua polka dot print $69.99 MORE COLORS",
           "price": 69.99,
           "currency": "USD",
           "url": "https://www.asos.com/us/miss-selfridge/miss-selfridge-tiered-spun-maxi-skirt-in-choc-and-aqua-polka-dot-print/prd/211070103#colourWayId-211070108"
@@ -704,7 +704,7 @@
           "url": "https://www.asos.com/us/asos-design/asos-design-off-the-shoulder-hybrid-maxi-dress-in-brown/prd/210589084#colourWayId-210589086"
         },
         {
-          "name": "ASOS DESIGN twist hardware detail midi dress in chocolate $74.99 Selling fast",
+          "name": "ASOS DESIGN twist hardware detail midi dress in chocolate $74.99",
           "price": 74.99,
           "currency": "USD",
           "url": "https://www.asos.com/us/asos-design/asos-design-twist-hardware-detail-midi-dress-in-chocolate/prd/211087365#colourWayId-211087370"
@@ -753,9 +753,9 @@
       "color": "#8B93A7",
       "url": "https://www.cos.com/en_usd/women/bestsellers.html",
       "domain": "cos.com",
-      "status": "ok",
-      "stale": false,
-      "error": null,
+      "status": "stale",
+      "stale": true,
+      "error": "no products parsed (served last good data)",
       "collectedFrom": "https://www.cos.com/en-us/women/most-popular",
       "method": "serp-discovery",
       "productCount": 32,
@@ -993,7 +993,7 @@
       "domain": "shein.com",
       "status": "error",
       "stale": false,
-      "error": "Scraping https://us.shein.com/Women-Best-Sellers-sc-016322921.html...\nError: Your system is sending too many of this type of request. If you need to send more, contact your Account Manager\n",
+      "error": "Scraping https://us.shein.com/Women-Best-Sellers-sc-016322921.html...\nError: waiting for selector \".sui-pagination__center, .search-empty, .ProductIntroHeadPrice__head-mainprice, .c-error-404, .da-error-heading, .product-intro__ssr-price, .crash-tips, .productPrice__main\" failed: timeout 90000ms exc",
       "collectedFrom": "https://us.shein.com/Women-Best-Sellers-sc-016322921.html",
       "method": null,
       "productCount": 0,
@@ -1205,8 +1205,8 @@
         "id": "uniqlo",
         "name": "Uniqlo",
         "color": "#14B8A6",
-        "avg": 28.03,
-        "median": 24.9,
+        "avg": 31.78,
+        "median": 27.4,
         "min": 14.9,
         "max": 49.9,
         "count": 8
@@ -1282,7 +1282,7 @@
       "max": 419,
       "count": 4
     },
-    "overallAvg": 74.97,
+    "overallAvg": 75.17,
     "overallMedian": 57.49,
     "cheapestItem": {
       "retailer": "H&M",
