@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T12:03:15.328Z",
+  "generatedAt": "2026-08-30T11:00:07.343Z",
   "currency": "USD",
   "poweredBy": "Bright Data — Web Unlocker, SERP API & Web Scraper API",
   "retailers": [
@@ -9,9 +9,9 @@
       "color": "#E50010",
       "url": "https://www2.hm.com/en_us/women/seasonal-trending/best-sellers.html",
       "domain": "hm.com",
-      "status": "ok",
-      "stale": false,
-      "error": null,
+      "status": "stale",
+      "stale": true,
+      "error": "Scraping https://www2.hm.com/en_us/women/seasonal-trending/best-sellers.html...\nError: captcha or protection page found\n (served last good data)",
       "collectedFrom": "https://www2.hm.com/en_us/women/seasonal-trending/best-sellers.html",
       "method": "web-unlocker/markdown",
       "productCount": 36,
@@ -255,9 +255,9 @@
       "color": "#C08457",
       "url": "https://www.zara.com/us/en/woman-new-in-l1180.html",
       "domain": "zara.com",
-      "status": "ok",
-      "stale": false,
-      "error": null,
+      "status": "stale",
+      "stale": true,
+      "error": "Scraping https://www.zara.com/us/en/woman-new-in-l1180.html...\nError: Timed out waiting for window.DomContentLoaded event\n (served last good data)",
       "collectedFrom": "https://www.zara.com/us/en/woman-new-in-l1180.html",
       "method": "web-unlocker/json-ld",
       "productCount": 10,
@@ -347,7 +347,7 @@
       "domain": "uniqlo.com",
       "status": "stale",
       "stale": true,
-      "error": "no products parsed (served last good data)",
+      "error": "Scraping https://www.uniqlo.com/us/en/women/featured/new-arrivals...\nError: Captcha resolve failed\n (served last good data)",
       "collectedFrom": "https://www.uniqlo.com/us/en/spl/ranking/women?srsltid=AfmBOooTC6LPS8AdD0PpW6XH1DWovbFsJZ6EIS_LsjpwwFId1ZzcaXTD",
       "method": "serp-discovery",
       "productCount": 8,
@@ -423,75 +423,75 @@
       "color": "#F59E0B",
       "url": "https://shop.mango.com/us/en/c/women/new-now_d5f2a6e6",
       "domain": "mango.com",
-      "status": "stale",
-      "stale": true,
-      "error": "Scraping https://shop.mango.com/us/en/c/women/new-now_d5f2a6e6...\nError: captcha or protection page found\n (served last good data)",
-      "collectedFrom": "https://shop.mango.com/us/en/c/women/best-sellers/986189b8",
-      "method": "serp-discovery",
+      "status": "ok",
+      "stale": false,
+      "error": null,
+      "collectedFrom": "https://shop.mango.com/us/en/c/women/new-now_d5f2a6e6",
+      "method": "web-unlocker/markdown",
       "productCount": 8,
       "stats": {
         "count": 8,
         "min": 69.99,
-        "max": 269.99,
-        "avg": 141.24,
-        "median": 139.99,
-        "p25": 117.49,
-        "p75": 149.99
+        "max": 129.99,
+        "avg": 88.74,
+        "median": 89.99,
+        "p25": 69.99,
+        "p75": 92.49
       },
       "cheapest": {
-        "name": "Checked midi skirt - Details of the article 0, Brown. Ref: 37015990-00.",
+        "name": "Large shopper bag - Article without model",
         "price": 69.99,
         "currency": "USD",
-        "url": "https://shop.mango.com/us/en/p/women/skirts/long/checked-midi-skirt/37015990/30/00"
+        "url": "https://shop.mango.com/us/en/p/women/bags/shoppers/large-shopper-bag/37082544/32/00"
       },
       "products": [
         {
-          "name": "Checked midi skirt - Details of the article 0, Brown. Ref: 37015990-00.",
+          "name": "Large shopper bag - Article without model",
+          "price": 69.99,
+          "currency": "USD",
+          "url": "https://shop.mango.com/us/en/p/women/bags/shoppers/large-shopper-bag/37082544/32/00"
+        },
+        {
+          "name": "Short-sleeved combined sweater - Article without model",
+          "price": 69.99,
+          "currency": "USD",
+          "url": "https://shop.mango.com/us/en/p/women/sweaters-and-cardigans/short-sleeved/short-sleeved-combined-sweater/37044086/99/00"
+        },
+        {
+          "name": "Checked midi skirt - Article without model",
           "price": 69.99,
           "currency": "USD",
           "url": "https://shop.mango.com/us/en/p/women/skirts/long/checked-midi-skirt/37015990/30/00"
         },
         {
-          "name": "Checked midi skirt - Details of the article 0, Brown. Ref: 37054070-00.",
-          "price": 79.99,
+          "name": "Straight-fit pleated trousers - Article without model",
+          "price": 89.99,
           "currency": "USD",
-          "url": "https://shop.mango.com/us/en/p/women/skirts/midi/checked-midi-skirt/37054070/30/00"
+          "url": "https://shop.mango.com/us/en/p/women/trousers/casual/straight-fit-pleated-trousers/37094428/30/00"
         },
         {
-          "name": "Flared-sleeve dress with knot detail - Details of the article 0, Green. Ref: 37006000-00.",
+          "name": "Fitted houndstooth shirt - Article without model",
+          "price": 89.99,
+          "currency": "USD",
+          "url": "https://shop.mango.com/us/en/p/women/shirts---blouses/long-sleeve/fitted-houndstooth-shirt/37066002/30/00"
+        },
+        {
+          "name": "Large shopper bag - Article without model",
+          "price": 89.99,
+          "currency": "USD",
+          "url": "https://shop.mango.com/us/en/p/women/bags/shoppers/large-shopper-bag/37051347/32/00"
+        },
+        {
+          "name": "Satin clutch bag with tassels - Article without model",
+          "price": 100,
+          "currency": "USD",
+          "url": "https://shop.mango.com/us/en/p/women/bags/party/satin-clutch-bag-with-tassels/37084116/11/00"
+        },
+        {
+          "name": "Fitted trench with belt - Article without model",
           "price": 129.99,
           "currency": "USD",
-          "url": "https://shop.mango.com/us/en/p/women/dresses-and-jumpsuits/dresses/flared-sleeve-dress-with-knot-detail/37006000/43/00"
-        },
-        {
-          "name": "Double-breasted belted suit blazer - Details of the article 0, Maroon. Ref: 37065841-00.",
-          "price": 129.99,
-          "currency": "USD",
-          "url": "https://shop.mango.com/us/en/p/women/blazers/fitted/double-breasted-belted-suit-blazer/37065841/76/00"
-        },
-        {
-          "name": "Short checked trench coat with belt - Details of the article 0, Beige. Ref: 37054100-00.",
-          "price": 149.99,
-          "currency": "USD",
-          "url": "https://shop.mango.com/us/en/p/women/jackets/short-checked-trench-coat-with-belt/37054100/08/00"
-        },
-        {
-          "name": "Oversized belted jacket - Details of the article 0, Chocolate. Ref: 37064786-00.",
-          "price": 149.99,
-          "currency": "USD",
-          "url": "https://shop.mango.com/us/en/p/women/jackets/leather-effect/oversized-belted-jacket/37064786/32/00"
-        },
-        {
-          "name": "Funnel-neck jacket with pockets - Details of the article 0, Beige. Ref: 37055847-00.",
-          "price": 149.99,
-          "currency": "USD",
-          "url": "https://shop.mango.com/us/en/p/women/jackets/bombers/funnel-neck-jacket-with-pockets/37055847/08/00"
-        },
-        {
-          "name": "Funnel neck leather jacket - Details of the article 0, Black. Ref: 37045839-00.",
-          "price": 269.99,
-          "currency": "USD",
-          "url": "https://shop.mango.com/us/en/p/women/jackets/bombers/funnel-neck-leather-jacket/37045839/99/00"
+          "url": "https://shop.mango.com/us/en/p/women/coats/trench-coats/fitted-trench-with-belt/37094078/07/00"
         }
       ]
     },
@@ -511,20 +511,20 @@
         "count": 48,
         "min": 16.99,
         "max": 270,
-        "avg": 75.99,
+        "avg": 75.87,
         "median": 59.99,
         "p25": 43.74,
         "p75": 99.99
       },
       "cheapest": {
-        "name": "ASOS DESIGN cotton one shoulder top in ivory $16.99 MORE COLORS Selling fast",
+        "name": "ASOS DESIGN cotton one shoulder top in ivory $16.99 MORE COLORS",
         "price": 16.99,
         "currency": "USD",
         "url": "https://www.asos.com/us/asos-design/asos-design-cotton-one-shoulder-top-in-ivory/prd/211098879#colourWayId-211098881"
       },
       "products": [
         {
-          "name": "ASOS DESIGN cotton one shoulder top in ivory $16.99 MORE COLORS Selling fast",
+          "name": "ASOS DESIGN cotton one shoulder top in ivory $16.99 MORE COLORS",
           "price": 16.99,
           "currency": "USD",
           "url": "https://www.asos.com/us/asos-design/asos-design-cotton-one-shoulder-top-in-ivory/prd/211098879#colourWayId-211098881"
@@ -536,7 +536,7 @@
           "url": "https://www.asos.com/us/asos-design/asos-design-funnel-neck-long-sleeve-top-in-black/prd/210819179#colourWayId-210819180"
         },
         {
-          "name": "ASOS DESIGN one draped sleeve jersey top in gray $29.99 Selling fast",
+          "name": "ASOS DESIGN one draped sleeve jersey top in gray $29.99",
           "price": 29.99,
           "currency": "USD",
           "url": "https://www.asos.com/us/asos-design/asos-design-one-draped-sleeve-jersey-top-in-gray/prd/211590599#colourWayId-211590603"
@@ -554,7 +554,7 @@
           "url": "https://www.asos.com/us/topshop/topshop-slubby-color-block-raglan-t-shirt-in-burgundy/prd/211316368#colourWayId-211316372"
         },
         {
-          "name": "Topshop slubby color block raglan T-shirt in blue $30.00 MORE COLORS",
+          "name": "Topshop slubby color block raglan T-shirt in blue $30.00 MORE COLORS Selling fast",
           "price": 30,
           "currency": "USD",
           "url": "https://www.asos.com/us/topshop/topshop-slubby-color-block-raglan-t-shirt-in-blue/prd/211316278#colourWayId-211316319"
@@ -620,7 +620,7 @@
           "url": "https://www.asos.com/us/asos-design/asos-design-linen-look-fringe-halter-top-in-ivory/prd/211246944#colourWayId-211246950"
         },
         {
-          "name": "ASOS DESIGN funnel neck shirt in plaid $49.99",
+          "name": "ASOS DESIGN funnel neck shirt in plaid $49.99 Selling fast",
           "price": 49.99,
           "currency": "USD",
           "url": "https://www.asos.com/us/asos-design/asos-design-funnel-neck-shirt-in-plaid/prd/210778995#colourWayId-210779009"
@@ -638,10 +638,16 @@
           "url": "https://www.asos.com/us/asos-design/asos-design-low-waist-wide-leg-jeans-in-light-bleach-wash/prd/211167251#colourWayId-211167252"
         },
         {
-          "name": "ASOS DESIGN low waist wide leg jeans in dark mid blue $51.99 MORE COLORS",
+          "name": "ASOS DESIGN low waist wide leg jeans in dark mid blue $51.99 MORE COLORS Selling fast",
           "price": 51.99,
           "currency": "USD",
           "url": "https://www.asos.com/us/asos-design/asos-design-low-waist-wide-leg-jeans-in-dark-mid-blue/prd/211166960#colourWayId-211166961"
+        },
+        {
+          "name": "Reclaimed Vintage satin awkward length skirt with lace trim in ivory $54.99 MORE COLORS",
+          "price": 54.99,
+          "currency": "USD",
+          "url": "https://www.asos.com/us/reclaimed-vintage/reclaimed-vintage-satin-awkward-length-skirt-with-lace-trim-in-ivory/prd/211511004#colourWayId-211511005"
         },
         {
           "name": "Topshop x Cara seamed long sleeve T-shirt in khaki $55.00 MORE COLORS Selling fast",
@@ -662,7 +668,7 @@
           "url": "https://www.asos.com/us/asos-design/asos-design-mandarin-detail-top-in-yellow-print-part-of-a-set/prd/211443064#colourWayId-211443078"
         },
         {
-          "name": "ASOS DESIGN devore floral mesh mini dress with fringing in olive $59.99 Selling fast",
+          "name": "ASOS DESIGN devore floral mesh mini dress with fringing in olive $59.99",
           "price": 59.99,
           "currency": "USD",
           "url": "https://www.asos.com/us/asos-design/asos-design-devore-floral-mesh-mini-dress-with-fringing-in-olive/prd/211447984#colourWayId-211447989"
@@ -680,7 +686,7 @@
           "url": "https://www.asos.com/us/asos-design/asos-design-bandeau-top-with-scarf-detail-set-in-gold/grp/211587107#colourWayId-210824630&productId-210824628"
         },
         {
-          "name": "Topshop denim mini skirt in zebra $60.00",
+          "name": "Topshop denim mini skirt in zebra $60.00 Selling fast",
           "price": 60,
           "currency": "USD",
           "url": "https://www.asos.com/us/topshop/topshop-denim-mini-skirt-in-zebra/prd/211335844#colourWayId-211335845"
@@ -692,7 +698,7 @@
           "url": "https://www.asos.com/us/topshop/topshop-regular-capris-in-black/prd/211165127#colourWayId-211165130"
         },
         {
-          "name": "adidas Originals cable knit shorts in navy $60.00 MORE COLORS Selling fast",
+          "name": "adidas Originals cable knit shorts in navy $60.00 MORE COLORS",
           "price": 60,
           "currency": "USD",
           "url": "https://www.asos.com/us/adidas-originals/adidas-originals-cable-knit-shorts-in-navy/prd/210520503#colourWayId-210520509"
@@ -704,13 +710,13 @@
           "url": "https://www.asos.com/us/asos-design/asos-design-wide-leg-utility-pants-in-chocolate/prd/211124834#colourWayId-211124837"
         },
         {
-          "name": "ASOS DESIGN lace mandarin trim long top in black $64.99 Back in stock soon Selling fast",
+          "name": "ASOS DESIGN lace mandarin trim long top in black $64.99 Back in stock soon",
           "price": 64.99,
           "currency": "USD",
           "url": "https://www.asos.com/us/asos-design/asos-design-lace-mandarin-trim-long-top-in-black/prd/211501602#colourWayId-211501610"
         },
         {
-          "name": "adidas Originals knit sweatpants in gray $70.00 MIX & MATCH",
+          "name": "adidas Originals knit sweatpants in gray $70.00 MIX & MATCH Selling fast",
           "price": 70,
           "currency": "USD",
           "url": "https://www.asos.com/us/adidas-originals/adidas-orginals-knit-set-in-gray/grp/211723016#colourWayId-210397383&productId-210397381"
@@ -726,12 +732,6 @@
           "price": 84.99,
           "currency": "USD",
           "url": "https://www.asos.com/us/reclaimed-vintage/reclaimed-vintage-midi-tea-dress-with-fluttter-sleeves-in-rust-floral/prd/210822529#colourWayId-210822536"
-        },
-        {
-          "name": "ASOS DESIGN ruched bust mesh maxi dress with scarf detail in chocolate $89.99 MORE COLORS",
-          "price": 89.99,
-          "currency": "USD",
-          "url": "https://www.asos.com/us/asos-design/asos-design-ruched-bust-mesh-maxi-dress-with-scarf-detail-in-chocolate/prd/211419808#colourWayId-211419826"
         },
         {
           "name": "ASOS DESIGN Tailored cinched waist blazer in brown $99.99 MORE COLORS",
@@ -752,12 +752,6 @@
           "url": "https://www.asos.com/us/topshop/topshop-bandeau-cinch-waist-structured-maxi-dress-in-chocolate/prd/210127900#colourWayId-210127901"
         },
         {
-          "name": "Topshop x Cara denim ultra-wide pleated culotte in light green cast $100.00 MORE COLORS",
-          "price": 100,
-          "currency": "USD",
-          "url": "https://www.asos.com/us/topshop/topshop-x-cara-denim-ultra-wide-pleated-culotte-in-light-green-cast/prd/211061241#colourWayId-211061243"
-        },
-        {
           "name": "Princess Polly Nellie deep v tie detail maxi slip dress in brown polka dots $111.00",
           "price": 111,
           "currency": "USD",
@@ -774,6 +768,12 @@
           "price": 129,
           "currency": "USD",
           "url": "https://www.asos.com/us/topshop/topshop-padded-denim-bomber-jacket-in-zebra/prd/211273866#colourWayId-211273874"
+        },
+        {
+          "name": "ASOS DESIGN premium batwing mini dress with ruched skirt in teal $129.00",
+          "price": 129,
+          "currency": "USD",
+          "url": "https://www.asos.com/us/asos-design/asos-design-premium-batwing-mini-dress-with-ruched-skirt-in-teal/prd/210948767#colourWayId-210948785"
         },
         {
           "name": "ARRANGE chunky rib knit off shoulder sweater in brown $130.00 MORE COLORS",
@@ -821,7 +821,7 @@
       "domain": "cos.com",
       "status": "stale",
       "stale": true,
-      "error": "no products parsed (served last good data)",
+      "error": "Scraping https://www.cos.com/en_usd/women/bestsellers.html...\nError: Captcha resolve failed\n (served last good data)",
       "collectedFrom": "https://www.cos.com/en-us/women/most-popular",
       "method": "serp-discovery",
       "productCount": 34,
@@ -1090,15 +1090,15 @@
       "error": null,
       "collectedFrom": "https://www.nike.com/w/womens-best-sellers-76m50z5e1x6",
       "method": "web-unlocker/markdown",
-      "productCount": 15,
+      "productCount": 16,
       "stats": {
-        "count": 15,
+        "count": 16,
         "min": 27.97,
-        "max": 155,
-        "avg": 80.52,
-        "median": 76.97,
-        "p25": 45.99,
-        "p75": 105
+        "max": 220,
+        "avg": 89.24,
+        "median": 80.99,
+        "p25": 46.49,
+        "p75": 117.5
       },
       "cheapest": {
         "name": "Nike Sportswear Classic Women's High-Waisted 8 Biker Shorts",
@@ -1196,6 +1196,12 @@
           "price": 155,
           "currency": "USD",
           "url": "https://www.nike.com/t/metcon-10-womens-training-shoes-EGL2tQMt/HQ2620-100"
+        },
+        {
+          "name": "Air Jordan 4 Toro Men's Shoes",
+          "price": 220,
+          "currency": "USD",
+          "url": "https://www.nike.com/t/air-jordan-4-toro-mens-shoes-Aey77D4l/FQ8138-600"
         }
       ]
     },
@@ -1207,9 +1213,9 @@
       "domain": "adidas.com",
       "status": "error",
       "stale": false,
-      "error": "no products parsed",
+      "error": "Scraping https://www.adidas.com/us/women-best_sellers...\nError: reject element found\n",
       "collectedFrom": "https://www.adidas.com/us/women-best_sellers",
-      "method": "web-unlocker/markdown",
+      "method": null,
       "productCount": 0,
       "stats": null,
       "cheapest": null,
@@ -1219,7 +1225,7 @@
   "summary": {
     "retailerCount": 10,
     "okCount": 7,
-    "totalProducts": 159,
+    "totalProducts": 160,
     "ranking": [
       {
         "id": "hm",
@@ -1245,21 +1251,31 @@
         "id": "asos",
         "name": "ASOS",
         "color": "#6366F1",
-        "avg": 75.99,
+        "avg": 75.87,
         "median": 59.99,
         "min": 16.99,
         "max": 270,
         "count": 48
       },
       {
+        "id": "mango",
+        "name": "Mango",
+        "color": "#F59E0B",
+        "avg": 88.74,
+        "median": 89.99,
+        "min": 69.99,
+        "max": 129.99,
+        "count": 8
+      },
+      {
         "id": "nike",
         "name": "Nike",
         "color": "#22C55E",
-        "avg": 80.52,
-        "median": 76.97,
+        "avg": 89.24,
+        "median": 80.99,
         "min": 27.97,
-        "max": 155,
-        "count": 15
+        "max": 220,
+        "count": 16
       },
       {
         "id": "zara",
@@ -1270,16 +1286,6 @@
         "min": 45.9,
         "max": 199,
         "count": 10
-      },
-      {
-        "id": "mango",
-        "name": "Mango",
-        "color": "#F59E0B",
-        "avg": 141.24,
-        "median": 139.99,
-        "min": 69.99,
-        "max": 269.99,
-        "count": 8
       },
       {
         "id": "cos",
@@ -1312,7 +1318,7 @@
       "max": 999,
       "count": 34
     },
-    "overallAvg": 90.1,
+    "overallAvg": 88.25,
     "overallMedian": 60,
     "cheapestItem": {
       "retailer": "H&M",
