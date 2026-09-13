@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T09:52:54.402Z",
+  "generatedAt": "2026-09-13T10:54:00.225Z",
   "currency": "USD",
   "poweredBy": "Bright Data — Web Unlocker, SERP API & Web Scraper API",
   "retailers": [
@@ -341,7 +341,7 @@
       "domain": "uniqlo.com",
       "status": "stale",
       "stale": true,
-      "error": "Scraping https://www.uniqlo.com/us/en/women/featured/new-arrivals...\nError: Captcha resolve failed\n (served last good data)",
+      "error": "no products parsed (served last good data)",
       "collectedFrom": "https://www.uniqlo.com/us/en/spl/ranking/women?srsltid=AfmBOoph_gqlj3z5dry-WMAmxhgGQhU5xr-elFtJ1e-3uEgEnqaWXH2j",
       "method": "serp-discovery",
       "productCount": 4,
@@ -393,9 +393,9 @@
       "color": "#F59E0B",
       "url": "https://shop.mango.com/us/en/c/women/new-now_d5f2a6e6",
       "domain": "mango.com",
-      "status": "ok",
-      "stale": false,
-      "error": null,
+      "status": "stale",
+      "stale": true,
+      "error": "no products parsed (served last good data)",
       "collectedFrom": "https://shop.mango.com/us/en/c/women/new-now_d5f2a6e6",
       "method": "web-unlocker/markdown",
       "productCount": 8,
@@ -481,10 +481,10 @@
         "count": 48,
         "min": 21,
         "max": 509,
-        "avg": 87.85,
+        "avg": 86.83,
         "median": 69.99,
         "p25": 54.24,
-        "p75": 97
+        "p75": 96
       },
       "cheapest": {
         "name": "Weekday tank top with side button detail in cherry red $21.00 MORE COLORS Selling fast",
@@ -512,7 +512,7 @@
           "url": "https://www.asos.com/us/asos-design/asos-design-supersoft-draped-high-neck-wrap-top-in-black/prd/211133657#colourWayId-211133658"
         },
         {
-          "name": "ASOS DESIGN soft cord slash neck mini dress in chocolate $29.99 Selling fast",
+          "name": "ASOS DESIGN soft cord slash neck mini dress in chocolate $29.99",
           "price": 29.99,
           "currency": "USD",
           "url": "https://www.asos.com/us/asos-design/asos-design-soft-cord-slash-neck-mini-dress-in-chocolate/prd/211139046#colourWayId-211139055"
@@ -524,7 +524,7 @@
           "url": "https://www.asos.com/us/asos-design/asos-design-supersoft-tie-side-mini-dress-in-burgundy/prd/210787041#colourWayId-210787049"
         },
         {
-          "name": "ASOS DESIGN drape detail polyamide long sleeve top in white $44.99",
+          "name": "ASOS DESIGN drape detail polyamide long sleeve top in white $44.99 Selling fast",
           "price": 44.99,
           "currency": "USD",
           "url": "https://www.asos.com/us/asos-design/asos-design-drape-detail-polyamide-long-sleeve-top-in-white/prd/211626268#colourWayId-211626276"
@@ -608,19 +608,19 @@
           "url": "https://www.asos.com/us/asos-design/asos-design-coated-jeans-in-snake-print/prd/211071710#colourWayId-211071719"
         },
         {
-          "name": "Topshop long sleeve tie front knit sweater in black and beige stripes $65.00",
+          "name": "Topshop long sleeve tie front knit sweater in black and beige stripes $65.00 Selling fast",
           "price": 65,
           "currency": "USD",
           "url": "https://www.asos.com/us/topshop/topshop-long-sleeve-tie-front-knit-sweater-in-black-and-beige-stripes/prd/211585418#colourWayId-211585432"
         },
         {
-          "name": "Lioness keyhole cap sleeve lace top in chocolate brown $66.00",
+          "name": "Lioness keyhole cap sleeve lace top in chocolate brown $66.00 Selling fast",
           "price": 66,
           "currency": "USD",
           "url": "https://www.asos.com/us/lioness/lioness-keyhole-cap-sleeve-lace-top-in-chocolate-brown/prd/211520655#colourWayId-211520657"
         },
         {
-          "name": "Motel estri faux suede halter top in tan - part of a set $66.00 Selling fast",
+          "name": "Motel estri faux suede halter top in tan - part of a set $66.00",
           "price": 66,
           "currency": "USD",
           "url": "https://www.asos.com/us/motel/motel-estri-faux-suede-halter-top-in-tan-part-of-a-set/prd/211522211#colourWayId-211522212"
@@ -638,13 +638,13 @@
           "url": "https://www.asos.com/us/asos-design/asos-design-mini-dress-with-sheer-cape-shoulders-in-black-scuba-style-fabric/prd/211180513#colourWayId-211180520"
         },
         {
-          "name": "ASOS DESIGN mini skirt in brushed cow print $69.99",
+          "name": "ASOS DESIGN mini skirt in brushed cow print $69.99 Selling fast",
           "price": 69.99,
           "currency": "USD",
           "url": "https://www.asos.com/us/asos-design/asos-design-mini-skirt-in-brushed-cow-print/prd/211085401#colourWayId-211085408"
         },
         {
-          "name": "Gina Tricot sleeveless funnel neck faux feather trim top in off white $70.00",
+          "name": "Gina Tricot sleeveless funnel neck faux feather trim top in off white $70.00 Selling fast",
           "price": 70,
           "currency": "USD",
           "url": "https://www.asos.com/us/gina-tricot/gina-tricot-sleeveless-funnel-neck-faux-feather-trim-top-in-off-white/prd/211553398#colourWayId-211553400"
@@ -680,37 +680,43 @@
           "url": "https://www.asos.com/us/asos-design/asos-design-embroidered-crochet-maxi-dress-with-cut-outs-in-brown/prd/211520903#colourWayId-211520906"
         },
         {
+          "name": "ASOS DESIGN draped off shoulder scarf detail double layer maxi dress in black $89.99",
+          "price": 89.99,
+          "currency": "USD",
+          "url": "https://www.asos.com/us/asos-design/asos-design-draped-off-shoulder-scarf-detail-double-layer-maxi-dress-in-black/prd/211186140#colourWayId-211186141"
+        },
+        {
           "name": "ASOS DESIGN leaf embellished halter top in black - view 1",
           "price": 94.99,
           "currency": "USD",
           "url": "https://www.asos.com/us/asos-design/asos-design-leaf-embellished-halter-top-in-black/prd/210973440#colourWayId-210973449"
         },
         {
-          "name": "ASOS DESIGN funnel cropped cape formal coat in black $94.99 MORE COLORS Selling fast",
+          "name": "ASOS DESIGN funnel cropped cape formal coat in black $94.99 MORE COLORS",
           "price": 94.99,
           "currency": "USD",
           "url": "https://www.asos.com/us/asos-design/asos-design-funnel-cropped-cape-formal-coat-in-black/prd/210702158#colourWayId-210702164"
         },
         {
-          "name": "ASOS DESIGN button front formal utility jacket in black $94.99 Selling fast",
+          "name": "ASOS DESIGN button front formal utility jacket in black $94.99",
           "price": 94.99,
           "currency": "USD",
           "url": "https://www.asos.com/us/asos-design/asos-design-button-front-formal-utility-jacket-in-black/prd/210722602#colourWayId-210722603"
         },
         {
-          "name": "Lioness Nice Nights cuffed sleeve pleated plisse top in white $96.00",
+          "name": "Lioness Nice Nights cuffed sleeve pleated plisse top in white $96.00 Selling fast",
           "price": 96,
           "currency": "USD",
           "url": "https://www.asos.com/us/lioness/lioness-nice-nights-cuffed-sleeve-pleated-plisse-top-in-white/prd/211401436#colourWayId-211401445"
         },
         {
-          "name": "Lioness When In Rome high neck tie waist mini dress in mono polka dot $96.00 Selling fast",
+          "name": "Lioness When In Rome high neck tie waist mini dress in mono polka dot $96.00",
           "price": 96,
           "currency": "USD",
           "url": "https://www.asos.com/us/lioness/lioness-when-in-rome-high-neck-tie-waist-mini-dress-in-mono-polka-dot/prd/211401390#colourWayId-211401393"
         },
         {
-          "name": "ASOS DESIGN zigzag plisse tiered trapeze maxi dress in champagne $99.99",
+          "name": "ASOS DESIGN zigzag plisse tiered trapeze maxi dress in champagne $99.99 Selling fast",
           "price": 99.99,
           "currency": "USD",
           "url": "https://www.asos.com/us/asos-design/asos-design-zigzag-plisse-tiered-trapeze-maxi-dress-in-champagne/prd/211459513#colourWayId-211459518"
@@ -734,7 +740,7 @@
           "url": "https://www.asos.com/us/asos-design/asos-design-shawl-collar-faux-fur-jacket-in-gray-stripe/prd/210875235#colourWayId-210875247"
         },
         {
-          "name": "Lioness essential funnel neck windbreaker jacket in flame red $110.00 Selling fast",
+          "name": "Lioness essential funnel neck windbreaker jacket in flame red $110.00",
           "price": 110,
           "currency": "USD",
           "url": "https://www.asos.com/us/lioness/lioness-essential-funnel-neck-windbreaker-jacket-in-flame-red/prd/211520619#colourWayId-211520621"
@@ -756,12 +762,6 @@
           "price": 139,
           "currency": "USD",
           "url": "https://www.asos.com/us/topshop/topshop-overszied-faux-leather-cropped-bomber-with-zips-in-green/prd/210645674#colourWayId-210645675"
-        },
-        {
-          "name": "Topshop faux suede fold over funnel neck moto jacket in tan $139.00 MORE COLORS",
-          "price": 139,
-          "currency": "USD",
-          "url": "https://www.asos.com/us/topshop/topshop-faux-suede-fold-over-funnel-neck-moto-jacket-in-tan/prd/210892618#colourWayId-210892635"
         },
         {
           "name": "Topshop faux fur high neck cinch jacket in brown deer print $159.00 Selling fast",
@@ -791,7 +791,7 @@
       "domain": "cos.com",
       "status": "stale",
       "stale": true,
-      "error": "Scraping https://www.cos.com/en_usd/women/bestsellers.html...\nError: Proxy Connect Timeout\n (served last good data)",
+      "error": "Scraping https://www.cos.com/en_usd/women/bestsellers.html...\nError: captcha or protection page found\n (served last good data)",
       "collectedFrom": "https://www.cos.com/en-us/women/most-popular",
       "method": "serp-discovery",
       "productCount": 32,
@@ -1043,9 +1043,9 @@
       "color": "#22C55E",
       "url": "https://www.nike.com/w/womens-best-sellers-76m50z5e1x6",
       "domain": "nike.com",
-      "status": "stale",
-      "stale": true,
-      "error": "Scraping https://www.nike.com/w/womens-best-sellers-76m50z5e1x6...\nError: Timed out waiting for network idle\n (served last good data)",
+      "status": "ok",
+      "stale": false,
+      "error": null,
       "collectedFrom": "https://www.nike.com/w/womens-best-sellers-76m50z5e1x6",
       "method": "web-unlocker/markdown",
       "productCount": 11,
@@ -1189,7 +1189,7 @@
         "id": "asos",
         "name": "ASOS",
         "color": "#6366F1",
-        "avg": 87.85,
+        "avg": 86.83,
         "median": 69.99,
         "min": 21,
         "max": 509,
@@ -1246,7 +1246,7 @@
       "max": 999,
       "count": 32
     },
-    "overallAvg": 96.52,
+    "overallAvg": 96.19,
     "overallMedian": 69.94,
     "cheapestItem": {
       "retailer": "H&M",
